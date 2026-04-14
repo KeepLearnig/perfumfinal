@@ -139,9 +139,9 @@
     "previewImage": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=1200&h=630&fit=crop"
   },
   "logo": {
-    "textTop": "CS",
-    "textBottom": "PERFUMES",
-    "fontFamily": "ui-sans-serif, system-ui, sans-serif",
+    "textTop": "PERFUMES",
+    "textBottom": "CINSAL",
+    "fontFamily": "ui-monospace, SFMono-Regular, monospace",
     "shape": "circle"
   },
   "socials": {
