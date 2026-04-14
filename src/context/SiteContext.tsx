@@ -127,6 +127,10 @@ export const defaultFooter: FooterSettings = {
   copyright: 'Copyright CSPERFUMES - 2026. Todos los derechos reservados.',
 };
 
+const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800&h=800&fit=crop';
+const VALID_CATEGORY_IDS = ['perfumes', 'karsell', 'victoria-secret'] as const;
+const VALID_COLORS: CategoryCard['color'][] = ['amber', 'purple', 'pink', 'blue', 'green'];
+
 function getDefaultProducts(): Product[] {
   return [...arabicPerfumes, ...karsellProducts, ...vsBodySplashNoShimmer, ...vsBodySplashShimmer].map((product) => ({
     ...product,
@@ -148,114 +152,182 @@ function getDefaultConfig(): SiteConfig {
   };
 }
 
+function asObject(raw: unknown): Record<string, unknown> {
+  return raw && typeof raw === 'object' ? raw as Record<string, unknown> : {};
+}
+
+function asNonEmptyString(value: unknown, fallback: string): string {
+  if (typeof value === 'string') {
+    const trimmed = value.trim();
+    return trimmed.length > 0 ? trimmed : fallback;
+  }
+  return fallback;
+}
+
+function asOptionalString(value: unknown): string | undefined {
+  if (typeof value !== 'string') return undefined;
+  const trimmed = value.trim();
+  return trimmed.length > 0 ? trimmed : undefined;
+}
+
+function asSafeNumber(value: unknown, fallback: number, min?: number): number {
+  const parsed = Number(value);
+  if (!Number.isFinite(parsed)) return fallback;
+  if (typeof min === 'number' && parsed < min) return min;
+  return parsed;
+}
+
+function dedupeNumericId(id: number, used: Set<number>): number {
+  let next = id;
+  while (used.has(next) || next <= 0) next += 1;
+  used.add(next);
+  return next;
+}
+
+function safeParseJson(text: string): unknown | null {
+  try {
+    return JSON.parse(text);
+  } catch {
+    return null;
+  }
+}
+
 function sanitizeProduct(raw: unknown, fallbackId: number): Product {
-  const source = (raw && typeof raw === 'object') ? raw as Partial<Product> : {};
-  const price = Number(source.price ?? 0);
-  const installments = Number(source.installments ?? 3) || 3;
+  const source = asObject(raw);
+  const price = asSafeNumber(source.price, 0, 0);
+  const installments = Math.max(1, asSafeNumber(source.installments, 3, 1));
   return {
-    id: Number(source.id ?? fallbackId) || fallbackId,
-    name: String(source.name ?? 'Producto'),
+    id: asSafeNumber(source.id, fallbackId, 1),
+    name: asNonEmptyString(source.name, `Producto ${fallbackId}`),
     price,
-    transferPrice: Number(source.transferPrice ?? price) || price,
-    image: String(source.image ?? ''),
-    stock: Math.max(0, Number(source.stock ?? 0) || 0),
+    transferPrice: asSafeNumber(source.transferPrice, price, 0),
+    image: asNonEmptyString(source.image, FALLBACK_IMAGE),
+    stock: asSafeNumber(source.stock, 0, 0),
     installments,
-    installmentPrice: Number(source.installmentPrice ?? Math.round(price / installments)) || Math.round(price / installments),
-    description: String(source.description ?? ''),
+    installmentPrice: asSafeNumber(source.installmentPrice, Math.round(price / installments), 0),
+    description: typeof source.description === 'string' ? source.description : '',
   };
+}
+
+function sanitizeProducts(raw: unknown, defaults: Product[]): Product[] {
+  if (!Array.isArray(raw) || raw.length === 0) return defaults;
+  const usedIds = new Set<number>();
+  const sanitized = raw.map((item, index) => {
+    const product = sanitizeProduct(item, index + 1);
+    return { ...product, id: dedupeNumericId(product.id, usedIds) };
+  });
+  return sanitized.length > 0 ? sanitized : defaults;
 }
 
 function sanitizeSlides(raw: unknown): SlideData[] {
   if (!Array.isArray(raw) || raw.length === 0) return defaultSlides;
-  return raw.map((item, index) => {
-    const source = (item && typeof item === 'object') ? item as Partial<SlideData> : {};
+  const usedIds = new Set<number>();
+  const slides = raw.map((item, index) => {
+    const source = asObject(item);
+    const id = dedupeNumericId(asSafeNumber(source.id, index + 1, 1), usedIds);
     return {
-      id: Number(source.id ?? index + 1) || index + 1,
-      title: String(source.title ?? `Slide ${index + 1}`),
-      subtitle: String(source.subtitle ?? ''),
-      features: Array.isArray(source.features) ? source.features.map((feature) => String(feature)) : [],
-      image: String(source.image ?? ''),
+      id,
+      title: asNonEmptyString(source.title, `Slide ${index + 1}`),
+      subtitle: typeof source.subtitle === 'string' ? source.subtitle : '',
+      features: Array.isArray(source.features) ? source.features.map((feature) => String(feature)).filter(Boolean) : [],
+      image: asNonEmptyString(source.image, defaultSlides[index % defaultSlides.length]?.image ?? FALLBACK_IMAGE),
     };
   });
+  return slides.length > 0 ? slides : defaultSlides;
 }
 
 function sanitizeNavItems(raw: unknown): NavItem[] {
   if (!Array.isArray(raw) || raw.length === 0) return defaultNavItems;
-  return raw.map((item, index) => {
-    const source = (item && typeof item === 'object') ? item as Partial<NavItem> : {};
+  const usedIds = new Set<number>();
+  const navItems = raw.map((item, index) => {
+    const source = asObject(item);
     return {
-      id: Number(source.id ?? index + 1) || index + 1,
-      label: String(source.label ?? `Item ${index + 1}`),
-      href: String(source.href ?? '#'),
+      id: dedupeNumericId(asSafeNumber(source.id, index + 1, 1), usedIds),
+      label: asNonEmptyString(source.label, `Item ${index + 1}`),
+      href: asNonEmptyString(source.href, '#'),
       hasDropdown: Boolean(source.hasDropdown),
-      content: source.content ? String(source.content) : undefined,
+      content: asOptionalString(source.content),
     };
   });
+  return navItems.length > 0 ? navItems : defaultNavItems;
 }
 
 function sanitizePromoCards(raw: unknown): PromoCard[] {
   if (!Array.isArray(raw) || raw.length === 0) return defaultPromoCards;
-  return raw.map((item, index) => {
-    const source = (item && typeof item === 'object') ? item as Partial<PromoCard> : {};
+  const usedIds = new Set<number>();
+  const promoCards = raw.map((item, index) => {
+    const source = asObject(item);
     return {
-      id: Number(source.id ?? index + 1) || index + 1,
-      title: String(source.title ?? `Promo ${index + 1}`),
-      subtitle: String(source.subtitle ?? ''),
-      image: String(source.image ?? ''),
+      id: dedupeNumericId(asSafeNumber(source.id, index + 1, 1), usedIds),
+      title: asNonEmptyString(source.title, `Promo ${index + 1}`),
+      subtitle: typeof source.subtitle === 'string' ? source.subtitle : '',
+      image: asNonEmptyString(source.image, defaultPromoCards[index % defaultPromoCards.length]?.image ?? FALLBACK_IMAGE),
       agotado: Boolean(source.agotado),
     };
   });
+  return promoCards.length > 0 ? promoCards : defaultPromoCards;
 }
 
 function sanitizeCategoryCards(raw: unknown): CategoryCard[] {
-  const validColors: CategoryCard['color'][] = ['amber', 'purple', 'pink', 'blue', 'green'];
   if (!Array.isArray(raw) || raw.length === 0) return defaultCategoryCards;
-  return raw.map((item, index) => {
-    const source = (item && typeof item === 'object') ? item as Partial<CategoryCard> : {};
-    const color = validColors.includes(source.color as CategoryCard['color']) ? source.color as CategoryCard['color'] : 'amber';
-    return {
-      id: String(source.id ?? `category-${index + 1}`),
-      label: String(source.label ?? `Categoría ${index + 1}`),
-      badge: String(source.badge ?? ''),
-      description: String(source.description ?? ''),
-      color,
-    };
-  });
+  const byId = new Map<string, CategoryCard>();
+
+  for (const item of raw) {
+    const source = asObject(item);
+    const id = VALID_CATEGORY_IDS.includes(source.id as typeof VALID_CATEGORY_IDS[number])
+      ? String(source.id)
+      : undefined;
+    if (!id || byId.has(id)) continue;
+    byId.set(id, {
+      id,
+      label: asNonEmptyString(source.label, defaultCategoryCards.find((card) => card.id === id)?.label ?? id),
+      badge: typeof source.badge === 'string' ? source.badge : '',
+      description: typeof source.description === 'string' ? source.description : '',
+      color: VALID_COLORS.includes(source.color as CategoryCard['color']) ? source.color as CategoryCard['color'] : 'amber',
+    });
+  }
+
+  return VALID_CATEGORY_IDS.map((id) => byId.get(id) ?? defaultCategoryCards.find((card) => card.id === id)!).filter(Boolean);
 }
 
 function sanitizeTextBlock<T extends Record<string, string>>(defaults: T, raw: unknown): T {
-  const source = (raw && typeof raw === 'object') ? raw as Record<string, unknown> : {};
+  const source = asObject(raw);
   const result = { ...defaults };
   for (const key of Object.keys(defaults) as Array<keyof T>) {
-    result[key] = String(source[key as string] ?? defaults[key]);
+    result[key] = asNonEmptyString(source[key as string], defaults[key]);
   }
   return result;
 }
 
 function sanitizeLogo(raw: unknown): LogoSettings {
-  const source = (raw && typeof raw === 'object') ? raw as Partial<LogoSettings> : {};
+  const source = asObject(raw);
   return {
-    textTop: String(source.textTop ?? defaultLogo.textTop),
-    textBottom: String(source.textBottom ?? defaultLogo.textBottom),
-    fontFamily: String(source.fontFamily ?? defaultLogo.fontFamily),
+    textTop: asNonEmptyString(source.textTop, defaultLogo.textTop),
+    textBottom: asNonEmptyString(source.textBottom, defaultLogo.textBottom),
+    fontFamily: asNonEmptyString(source.fontFamily, defaultLogo.fontFamily),
     shape: source.shape === 'rounded' ? 'rounded' : 'circle',
+  };
+}
+
+function sanitizeContentBlock(raw: unknown, defaults: SiteConfig): Omit<SiteConfig, 'products'> {
+  const source = asObject(raw);
+  return {
+    slides: sanitizeSlides(source.slides),
+    navItems: sanitizeNavItems(source.navItems),
+    promoCards: sanitizePromoCards(source.promoCards),
+    categoryCards: sanitizeCategoryCards(source.categoryCards),
+    seo: sanitizeTextBlock(defaults.seo, source.seo),
+    logo: sanitizeLogo(source.logo),
+    socials: sanitizeTextBlock(defaults.socials, source.socials),
+    footer: sanitizeTextBlock(defaults.footer, source.footer),
   };
 }
 
 function sanitizeConfig(raw?: Partial<SiteConfig> | null): SiteConfig {
   const defaults = getDefaultConfig();
   return {
-    products: Array.isArray(raw?.products) && raw.products.length > 0
-      ? raw.products.map((product, index) => sanitizeProduct(product, index + 1))
-      : defaults.products,
-    slides: sanitizeSlides(raw?.slides),
-    navItems: sanitizeNavItems(raw?.navItems),
-    promoCards: sanitizePromoCards(raw?.promoCards),
-    categoryCards: sanitizeCategoryCards(raw?.categoryCards),
-    seo: sanitizeTextBlock(defaults.seo, raw?.seo),
-    logo: sanitizeLogo(raw?.logo),
-    socials: sanitizeTextBlock(defaults.socials, raw?.socials),
-    footer: sanitizeTextBlock(defaults.footer, raw?.footer),
+    products: sanitizeProducts(raw?.products, defaults.products),
+    ...sanitizeContentBlock(raw, defaults),
   };
 }
 
@@ -300,43 +372,35 @@ export function SiteProvider({ children }: { children: ReactNode }) {
   const [publishedConfig, setPublishedConfig] = useState<SiteConfig>(() => getDefaultConfig());
 
   const loadJsonConfig = async () => {
+    const defaults = getDefaultConfig();
+    let products = defaults.products;
+    let content = sanitizeContentBlock(defaults, defaults);
+
     try {
-      const [productsResponse, contentResponse] = await Promise.all([
-        fetch('/data/products.json', { cache: 'no-store' }),
-        fetch('/data/site-content.json', { cache: 'no-store' }),
-      ]);
-
-      const defaults = getDefaultConfig();
-      const next: Partial<SiteConfig> = {};
-
+      const productsResponse = await fetch('/data/products.json', { cache: 'no-store' });
       if (productsResponse.ok) {
-        const productsRaw = await productsResponse.json();
-        if (Array.isArray(productsRaw)) next.products = productsRaw as Product[];
+        const productsText = await productsResponse.text();
+        const productsRaw = safeParseJson(productsText);
+        products = sanitizeProducts(productsRaw, defaults.products);
       }
-
-      if (contentResponse.ok) {
-        const contentRaw = await contentResponse.json();
-        if (contentRaw && typeof contentRaw === 'object') {
-          const content = contentRaw as Partial<SiteConfig>;
-          next.slides = content.slides;
-          next.navItems = content.navItems;
-          next.promoCards = content.promoCards;
-          next.categoryCards = content.categoryCards;
-          next.seo = content.seo;
-          next.logo = content.logo;
-          next.socials = content.socials;
-          next.footer = content.footer;
-        }
-      }
-
-      const sanitized = sanitizeConfig({ ...defaults, ...next });
-      setConfig(sanitized);
-      setPublishedConfig(sanitized);
     } catch {
-      const fallback = getDefaultConfig();
-      setConfig(fallback);
-      setPublishedConfig(fallback);
+      products = defaults.products;
     }
+
+    try {
+      const contentResponse = await fetch('/data/site-content.json', { cache: 'no-store' });
+      if (contentResponse.ok) {
+        const contentText = await contentResponse.text();
+        const contentRaw = safeParseJson(contentText);
+        content = sanitizeContentBlock(contentRaw, defaults);
+      }
+    } catch {
+      content = sanitizeContentBlock(defaults, defaults);
+    }
+
+    const next = sanitizeConfig({ products, ...content });
+    setConfig(next);
+    setPublishedConfig(next);
   };
 
   useEffect(() => {
@@ -349,7 +413,7 @@ export function SiteProvider({ children }: { children: ReactNode }) {
 
   const api = useMemo<SiteCtx>(() => ({
     ...config,
-    setAllProducts: (products) => setConfig((prev) => ({ ...prev, products: products.map((product, index) => sanitizeProduct(product, index + 1)) })),
+    setAllProducts: (products) => setConfig((prev) => ({ ...prev, products: sanitizeProducts(products, prev.products) })),
     setSlides: (slides) => setConfig((prev) => ({ ...prev, slides: sanitizeSlides(slides) })),
     setNavItems: (navItems) => setConfig((prev) => ({ ...prev, navItems: sanitizeNavItems(navItems) })),
     setPromoCards: (promoCards) => setConfig((prev) => ({ ...prev, promoCards: sanitizePromoCards(promoCards) })),
