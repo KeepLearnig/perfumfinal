@@ -106,6 +106,95 @@ const FONT_OPTIONS = [
   { label: 'Cursive', value: 'cursive' },
 ];
 
+
+function downloadJson(filename: string, data: unknown) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+function sanitizeExportProducts(products: Product[]): Product[] {
+  return products.map((product, index) => {
+    const price = Math.max(0, Number(product.price) || 0);
+    const installments = Math.max(1, Number(product.installments) || 3);
+    return {
+      id: Number(product.id) || index + 1,
+      name: String(product.name ?? `Producto ${index + 1}`),
+      price,
+      transferPrice: Math.max(0, Number(product.transferPrice) || price),
+      image: String(product.image ?? ''),
+      stock: Math.max(0, Number(product.stock) || 0),
+      installments,
+      installmentPrice: Math.max(0, Number(product.installmentPrice) || Math.round(price / installments)),
+      description: String(product.description ?? ''),
+    };
+  });
+}
+
+function sanitizeExportSiteContent(site: ReturnType<typeof useSite>) {
+  const validColors = new Set(['amber', 'purple', 'pink', 'blue', 'green']);
+  return {
+    slides: site.slides.map((slide, index) => ({
+      id: Number(slide.id) || index + 1,
+      title: String(slide.title ?? `Slide ${index + 1}`),
+      subtitle: String(slide.subtitle ?? ''),
+      features: Array.isArray(slide.features) ? slide.features.map((feature) => String(feature)) : [],
+      image: String(slide.image ?? ''),
+    })),
+    navItems: site.navItems.map((item, index) => ({
+      id: Number(item.id) || index + 1,
+      label: String(item.label ?? `Item ${index + 1}`),
+      href: String(item.href ?? '#'),
+      hasDropdown: Boolean(item.hasDropdown),
+      content: item.content ? String(item.content) : undefined,
+    })),
+    promoCards: site.promoCards.map((promo, index) => ({
+      id: Number(promo.id) || index + 1,
+      title: String(promo.title ?? `Promo ${index + 1}`),
+      subtitle: String(promo.subtitle ?? ''),
+      image: String(promo.image ?? ''),
+      agotado: Boolean(promo.agotado),
+    })),
+    categoryCards: site.categoryCards.map((card, index) => ({
+      id: String(card.id ?? `category-${index + 1}`),
+      label: String(card.label ?? `Categoría ${index + 1}`),
+      badge: String(card.badge ?? ''),
+      description: String(card.description ?? ''),
+      color: validColors.has(String(card.color)) ? card.color : 'amber',
+    })),
+    seo: {
+      title: String(site.seo.title ?? ''),
+      description: String(site.seo.description ?? ''),
+      previewTitle: String(site.seo.previewTitle ?? ''),
+      previewDescription: String(site.seo.previewDescription ?? ''),
+      previewImage: String(site.seo.previewImage ?? ''),
+    },
+    logo: {
+      textTop: String(site.logo.textTop ?? ''),
+      textBottom: String(site.logo.textBottom ?? ''),
+      fontFamily: String(site.logo.fontFamily ?? 'ui-sans-serif, system-ui, sans-serif'),
+      shape: site.logo.shape === 'rounded' ? 'rounded' : 'circle',
+    },
+    socials: {
+      instagram: String(site.socials.instagram ?? ''),
+      facebook: String(site.socials.facebook ?? ''),
+      whatsapp: String(site.socials.whatsapp ?? ''),
+    },
+    footer: {
+      shippingBadge: String(site.footer.shippingBadge ?? ''),
+      consumerText: String(site.footer.consumerText ?? ''),
+      consumerLink: String(site.footer.consumerLink ?? ''),
+      regretText: String(site.footer.regretText ?? ''),
+      regretLink: String(site.footer.regretLink ?? ''),
+      copyright: String(site.footer.copyright ?? ''),
+    },
+  };
+}
+
 const COLOR_OPTIONS: CategoryCard['color'][] = ['amber', 'purple', 'pink', 'blue', 'green'];
 const COLOR_CLASSES: Record<string, string> = {
   amber: 'bg-amber-100 text-amber-800 border-amber-300',
@@ -746,6 +835,7 @@ function SecurityTab({ onLogout }: { onLogout: () => void }) {
 }
 
 export default function AdminPage() {
+  const site = useSite();
   const [authed, setAuthed] = useState(isSessionActive());
   const [tab, setTab] = useState<Tab>('products');
 
@@ -778,7 +868,15 @@ export default function AdminPage() {
               </button>
             ))}
           </nav>
-          <div className="p-3 border-t"><p className="text-[10px] text-gray-400 text-center leading-snug">En esta etapa los cambios del admin son locales de sesión. La exportación de JSON viene en la siguiente etapa.</p></div>
+          <div className="p-3 border-t space-y-2">
+            <Button variant="outline" className="w-full justify-start text-xs" onClick={() => downloadJson('products.json', sanitizeExportProducts(site.products))}>
+              <Download className="w-4 h-4 mr-2" />Exportar products.json
+            </Button>
+            <Button variant="outline" className="w-full justify-start text-xs" onClick={() => downloadJson('site-content.json', sanitizeExportSiteContent(site))}>
+              <Download className="w-4 h-4 mr-2" />Exportar site-content.json
+            </Button>
+            <p className="text-[10px] text-gray-400 leading-snug">Editás en el panel, exportás estos 2 JSON, reemplazás los archivos en <code>public/data/</code> y luego hacés push a GitHub para que Vercel publique los cambios.</p>
+          </div>
         </aside>
 
         <main className="flex-1 overflow-y-auto p-6">
