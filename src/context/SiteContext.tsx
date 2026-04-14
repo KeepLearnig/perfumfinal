@@ -270,6 +270,7 @@ interface SiteCtx extends SiteConfig {
   setSocials: (socials: SocialSettings) => void;
   setFooter: (footer: FooterSettings) => void;
   resetSiteConfig: () => void;
+  reloadSiteConfigFromJson: () => Promise<void>;
 }
 
 const Ctx = createContext<SiteCtx | null>(null);
@@ -296,55 +297,50 @@ function applySeo(seo: SeoSettings) {
 
 export function SiteProvider({ children }: { children: ReactNode }) {
   const [config, setConfig] = useState<SiteConfig>(() => getDefaultConfig());
+  const [publishedConfig, setPublishedConfig] = useState<SiteConfig>(() => getDefaultConfig());
 
-  useEffect(() => {
-    let isMounted = true;
+  const loadJsonConfig = async () => {
+    try {
+      const [productsResponse, contentResponse] = await Promise.all([
+        fetch('/data/products.json', { cache: 'no-store' }),
+        fetch('/data/site-content.json', { cache: 'no-store' }),
+      ]);
 
-    const loadJsonConfig = async () => {
-      try {
-        const [productsResponse, contentResponse] = await Promise.all([
-          fetch('/data/products.json', { cache: 'no-store' }),
-          fetch('/data/site-content.json', { cache: 'no-store' }),
-        ]);
+      const defaults = getDefaultConfig();
+      const next: Partial<SiteConfig> = {};
 
-        const defaults = getDefaultConfig();
-        const next: Partial<SiteConfig> = {};
+      if (productsResponse.ok) {
+        const productsRaw = await productsResponse.json();
+        if (Array.isArray(productsRaw)) next.products = productsRaw as Product[];
+      }
 
-        if (productsResponse.ok) {
-          const productsRaw = await productsResponse.json();
-          if (Array.isArray(productsRaw)) next.products = productsRaw as Product[];
-        }
-
-        if (contentResponse.ok) {
-          const contentRaw = await contentResponse.json();
-          if (contentRaw && typeof contentRaw === 'object') {
-            const content = contentRaw as Partial<SiteConfig>;
-            next.slides = content.slides;
-            next.navItems = content.navItems;
-            next.promoCards = content.promoCards;
-            next.categoryCards = content.categoryCards;
-            next.seo = content.seo;
-            next.logo = content.logo;
-            next.socials = content.socials;
-            next.footer = content.footer;
-          }
-        }
-
-        if (isMounted) {
-          setConfig(sanitizeConfig({ ...defaults, ...next }));
-        }
-      } catch {
-        if (isMounted) {
-          setConfig(getDefaultConfig());
+      if (contentResponse.ok) {
+        const contentRaw = await contentResponse.json();
+        if (contentRaw && typeof contentRaw === 'object') {
+          const content = contentRaw as Partial<SiteConfig>;
+          next.slides = content.slides;
+          next.navItems = content.navItems;
+          next.promoCards = content.promoCards;
+          next.categoryCards = content.categoryCards;
+          next.seo = content.seo;
+          next.logo = content.logo;
+          next.socials = content.socials;
+          next.footer = content.footer;
         }
       }
-    };
 
+      const sanitized = sanitizeConfig({ ...defaults, ...next });
+      setConfig(sanitized);
+      setPublishedConfig(sanitized);
+    } catch {
+      const fallback = getDefaultConfig();
+      setConfig(fallback);
+      setPublishedConfig(fallback);
+    }
+  };
+
+  useEffect(() => {
     void loadJsonConfig();
-
-    return () => {
-      isMounted = false;
-    };
   }, []);
 
   useEffect(() => {
@@ -362,8 +358,9 @@ export function SiteProvider({ children }: { children: ReactNode }) {
     setLogo: (logo) => setConfig((prev) => ({ ...prev, logo: sanitizeLogo(logo) })),
     setSocials: (socials) => setConfig((prev) => ({ ...prev, socials: sanitizeTextBlock(defaultSocials, socials) })),
     setFooter: (footer) => setConfig((prev) => ({ ...prev, footer: sanitizeTextBlock(defaultFooter, footer) })),
-    resetSiteConfig: () => setConfig(getDefaultConfig()),
-  }), [config]);
+    resetSiteConfig: () => setConfig(publishedConfig),
+    reloadSiteConfigFromJson: loadJsonConfig,
+  }), [config, publishedConfig]);
 
   return <Ctx.Provider value={api}>{children}</Ctx.Provider>;
 }
