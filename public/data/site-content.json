@@ -13,9 +13,8 @@
     {
       "id": 2,
       "title": "DESCUBRÍ TU FRAGANCIA IDEAL",
-      "subtitle": "HASTA 40% OFF",
+      "subtitle": "",
       "features": [
-        "Tester originales",
         "Garantía de calidad",
         "Envíos a todo el país"
       ],
@@ -23,13 +22,9 @@
     },
     {
       "id": 3,
-      "title": "EMPRENDÉ CON ICONIC",
-      "subtitle": "PRECIOS MAYORISTAS",
-      "features": [
-        "Sin inversión inicial",
-        "Atención personalizada",
-        "Catálogo exclusivo"
-      ],
+      "title": "",
+      "subtitle": "",
+      "features": [],
       "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=1200&h=500&fit=crop"
     }
   ],
