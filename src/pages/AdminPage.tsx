@@ -644,7 +644,7 @@ function CategoriesTab() {
 }
 
 function BrandingTab() {
-  const { seo, setSeo, logo, setLogo, socials, setSocials, footer, setFooter, resetSiteConfig } = useSite();
+  const { seo, setSeo, logo, setLogo, socials, setSocials, footer, setFooter, resetSiteConfig, reloadSiteConfigFromJson } = useSite();
   const previewTitle = useMemo(() => seo.previewTitle || seo.title, [seo]);
   const previewDescription = useMemo(() => seo.previewDescription || seo.description, [seo]);
 
@@ -699,9 +699,14 @@ function BrandingTab() {
       </div>
 
       <div className="flex justify-end">
-        <Button variant="outline" className="text-red-600 border-red-200 hover:bg-red-50" onClick={() => { if (confirm('¿Restaurar valores por defecto?')) resetSiteConfig(); }}>
-          <RefreshCw className="w-4 h-4 mr-2" />Restaurar configuración inicial
+        <div className="flex flex-wrap justify-end gap-2">
+        <Button variant="outline" onClick={() => { if (confirm('¿Descartar cambios y volver a lo publicado en los JSON?')) resetSiteConfig(); }}>
+          Descartar cambios locales
         </Button>
+        <Button variant="outline" className="text-red-600 border-red-200 hover:bg-red-50" onClick={() => { void reloadSiteConfigFromJson(); }}>
+          <RefreshCw className="w-4 h-4 mr-2" />Recargar desde JSON
+        </Button>
+      </div>
       </div>
     </div>
   );
@@ -773,7 +778,7 @@ export default function AdminPage() {
               </button>
             ))}
           </nav>
-          <div className="p-3 border-t"><p className="text-[10px] text-gray-400 text-center leading-snug">Los cambios se guardan en el navegador y se reflejan en la web al instante.</p></div>
+          <div className="p-3 border-t"><p className="text-[10px] text-gray-400 text-center leading-snug">En esta etapa los cambios del admin son locales de sesión. La exportación de JSON viene en la siguiente etapa.</p></div>
         </aside>
 
         <main className="flex-1 overflow-y-auto p-6">
