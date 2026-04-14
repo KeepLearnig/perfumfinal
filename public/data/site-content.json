@@ -34,24 +34,102 @@
     }
   ],
   "navItems": [
-    { "id": 1, "label": "CATEGORÍAS", "href": "#productos", "hasDropdown": true, "content": "<p>Podés editar este contenido desde el panel.</p>" },
-    { "id": 2, "label": "INICIO", "href": "#" },
-    { "id": 3, "label": "PRODUCTOS", "href": "#productos" },
-    { "id": 4, "label": "CONTACTO", "href": "#contacto" },
-    { "id": 5, "label": "QUIÉNES SOMOS", "href": "#quienes-somos" },
-    { "id": 6, "label": "PREGUNTAS FRECUENTES", "href": "#faq" },
-    { "id": 7, "label": "¿CÓMO COMPRAR?", "href": "#como-comprar" }
+    {
+      "id": 1,
+      "label": "CATEGORÍAS",
+      "href": "#productos",
+      "hasDropdown": true,
+      "content": "<p>Podés editar este contenido desde el panel.</p>"
+    },
+    {
+      "id": 2,
+      "label": "INICIO",
+      "href": "#",
+      "hasDropdown": false
+    },
+    {
+      "id": 3,
+      "label": "PRODUCTOS",
+      "href": "#productos",
+      "hasDropdown": false
+    },
+    {
+      "id": 4,
+      "label": "CONTACTO",
+      "href": "#contacto",
+      "hasDropdown": false
+    },
+    {
+      "id": 5,
+      "label": "QUIÉNES SOMOS",
+      "href": "#quienes-somos",
+      "hasDropdown": false
+    },
+    {
+      "id": 6,
+      "label": "PREGUNTAS FRECUENTES",
+      "href": "#faq",
+      "hasDropdown": false
+    },
+    {
+      "id": 7,
+      "label": "¿CÓMO COMPRAR?",
+      "href": "#como-comprar",
+      "hasDropdown": false
+    }
   ],
   "promoCards": [
-    { "id": 1, "title": "PROMO ESPECIAL", "subtitle": "4 perfumes de 60ml a elección", "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400&h=400&fit=crop", "agotado": true },
-    { "id": 2, "title": "PROMO 3x2", "subtitle": "3 perfumes de 60 ml", "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=400&fit=crop", "agotado": true },
-    { "id": 3, "title": "PROMO DUO", "subtitle": "2 perfumes 60 ml", "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=400&h=400&fit=crop", "agotado": true },
-    { "id": 4, "title": "PROMO FAMILIAR", "subtitle": "6 perfumes de 60 ml", "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop", "agotado": true }
+    {
+      "id": 1,
+      "title": "PROMO ESPECIAL",
+      "subtitle": "4 perfumes de 60ml a elección",
+      "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400&h=400&fit=crop",
+      "agotado": true
+    },
+    {
+      "id": 2,
+      "title": "PROMO 3x2",
+      "subtitle": "3 perfumes de 60 ml",
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=400&fit=crop",
+      "agotado": true
+    },
+    {
+      "id": 3,
+      "title": "PROMO DUO",
+      "subtitle": "2 perfumes 60 ml",
+      "image": "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=400&h=400&fit=crop",
+      "agotado": true
+    },
+    {
+      "id": 4,
+      "title": "PROMO FAMILIAR",
+      "subtitle": "6 perfumes de 60 ml",
+      "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop",
+      "agotado": true
+    }
   ],
   "categoryCards": [
-    { "id": "perfumes", "label": "Perfumes Árabes", "badge": "Destacado", "description": "Fragancias de alta duración", "color": "amber" },
-    { "id": "karsell", "label": "Productos Karsell", "badge": "Cuidado Capilar", "description": "Tratamientos y cuidado", "color": "purple" },
-    { "id": "victoria-secret", "label": "Body Splash VS", "badge": "Fragancias", "description": "Body splash y shimmer", "color": "pink" }
+    {
+      "id": "perfumes",
+      "label": "Perfumes Árabes",
+      "badge": "Destacado",
+      "description": "Fragancias de alta duración",
+      "color": "amber"
+    },
+    {
+      "id": "karsell",
+      "label": "Productos Karsell",
+      "badge": "Cuidado Capilar",
+      "description": "Tratamientos y cuidado",
+      "color": "purple"
+    },
+    {
+      "id": "victoria-secret",
+      "label": "Body Splash VS",
+      "badge": "Fragancias",
+      "description": "Body splash y shimmer",
+      "color": "pink"
+    }
   ],
   "seo": {
     "title": "Perfumes CS | Fragancias y cuidado personal",
