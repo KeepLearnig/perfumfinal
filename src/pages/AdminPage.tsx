@@ -348,6 +348,7 @@ function ProductsTab() {
       id: newId,
       name: 'Nuevo Producto',
       description: 'Descripción editable',
+      images: ['https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop'],
       price: 10000,
       transferPrice: 10000,
       image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&h=400&fit=crop',
@@ -459,9 +460,24 @@ function ProductsTab() {
                   <Input type="number" min={0} value={editing.stock} onChange={e => setEditing({ ...editing, stock: Number(e.target.value) })} />
                 </div>
                 <div className="sm:col-span-2">
-                  <label className="text-xs font-medium text-gray-600 block mb-1">URL de imagen</label>
-                  <Input value={editing.image} onChange={e => setEditing({ ...editing, image: e.target.value })} placeholder="https://..." />
+                  <label className="text-xs font-medium text-gray-600 block mb-1">Imagen principal</label>
+                  <Input value={editing.image} onChange={e => {
+                    const image = e.target.value;
+                    const currentImages = Array.isArray(editing.images) ? editing.images : [];
+                    const nextImages = currentImages.length === 0 ? [image] : [image, ...currentImages.filter((item) => item !== editing.image && item !== image)];
+                    setEditing({ ...editing, image, images: nextImages.filter(Boolean) });
+                  }} placeholder="https://..." />
                   {editing.image && <img src={editing.image} className="mt-2 w-20 h-20 object-cover rounded-lg border" alt="preview" />}
+                </div>
+                <div className="sm:col-span-2">
+                  <label className="text-xs font-medium text-gray-600 block mb-1">Galería de imágenes (una por línea)</label>
+                  <textarea className="w-full border rounded-lg px-3 py-2 text-sm resize-none bg-white" rows={4}
+                    value={(editing.images ?? [editing.image]).join('\n')}
+                    onChange={e => {
+                      const images = e.target.value.split('\n').map((item) => item.trim()).filter(Boolean);
+                      setEditing({ ...editing, images, image: images[0] ?? editing.image });
+                    }}
+                    placeholder="https://imagen1.jpg\nhttps://imagen2.jpg" />
                 </div>
                 <div className="sm:col-span-2">
                   <label className="text-xs font-medium text-gray-600 block mb-1">Descripción</label>

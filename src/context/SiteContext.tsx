@@ -135,6 +135,7 @@ function getDefaultProducts(): Product[] {
   return [...arabicPerfumes, ...karsellProducts, ...vsBodySplashNoShimmer, ...vsBodySplashShimmer].map((product) => ({
     ...product,
     description: product.description ?? '',
+    images: Array.isArray(product.images) ? product.images : [product.image],
   }));
 }
 
@@ -196,12 +197,18 @@ function sanitizeProduct(raw: unknown, fallbackId: number): Product {
   const source = asObject(raw);
   const price = asSafeNumber(source.price, 0, 0);
   const installments = Math.max(1, asSafeNumber(source.installments, 3, 1));
+  const image = asNonEmptyString(source.image, FALLBACK_IMAGE);
+  const extraImages = Array.isArray(source.images)
+    ? source.images.map((item) => String(item).trim()).filter(Boolean)
+    : [];
+  const images = Array.from(new Set([image, ...extraImages])).filter(Boolean);
   return {
     id: asSafeNumber(source.id, fallbackId, 1),
     name: asNonEmptyString(source.name, `Producto ${fallbackId}`),
     price,
     transferPrice: asSafeNumber(source.transferPrice, price, 0),
-    image: asNonEmptyString(source.image, FALLBACK_IMAGE),
+    image,
+    images,
     stock: asSafeNumber(source.stock, 0, 0),
     installments,
     installmentPrice: asSafeNumber(source.installmentPrice, Math.round(price / installments), 0),

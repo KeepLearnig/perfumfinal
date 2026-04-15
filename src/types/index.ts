@@ -8,7 +8,9 @@ export interface Product {
   installments: number;
   installmentPrice: number;
   description?: string;
+  images?: string[];
 }
+
 
 export interface CartItem extends Product {
   quantity: number;
