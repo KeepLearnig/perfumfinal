@@ -1,18 +1,64 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ChevronRight, ShoppingCart, ExternalLink } from 'lucide-react';
 import type { Product } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { getProductImages } from '@/lib/product';
+import { useSite } from '@/context/SiteContext';
 
 interface ProductDetailPageProps {
   product: Product | null;
   onAddToCart: (product: Product) => void;
 }
 
+function upsertMeta(selector: string, attr: 'name' | 'property', value: string, content: string) {
+  let tag = document.head.querySelector(selector) as HTMLMetaElement | null;
+  if (!tag) {
+    tag = document.createElement('meta');
+    tag.setAttribute(attr, value);
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute('content', content);
+}
+
 export default function ProductDetailPage({ product, onAddToCart }: ProductDetailPageProps) {
+  const { seo } = useSite();
   const images = useMemo(() => (product ? getProductImages(product) : []), [product]);
   const [activeImage, setActiveImage] = useState(0);
+
+  useEffect(() => {
+    if (!product) return;
+
+    const originalTitle = document.title;
+    const originalDescription = (document.head.querySelector('meta[name="description"]') as HTMLMetaElement | null)?.getAttribute('content') ?? seo.description;
+    const originalOgTitle = (document.head.querySelector('meta[property="og:title"]') as HTMLMetaElement | null)?.getAttribute('content') ?? (seo.previewTitle || seo.title);
+    const originalOgDescription = (document.head.querySelector('meta[property="og:description"]') as HTMLMetaElement | null)?.getAttribute('content') ?? (seo.previewDescription || seo.description);
+    const originalOgImage = (document.head.querySelector('meta[property="og:image"]') as HTMLMetaElement | null)?.getAttribute('content') ?? seo.previewImage;
+
+    const description = product.description?.trim() || `${product.name} disponible en Perfumes CS.`;
+    const image = images[0] || product.image || seo.previewImage;
+    const title = `${product.name} | Perfumes CS`;
+
+    document.title = title;
+    upsertMeta('meta[name="description"]', 'name', 'description', description);
+    upsertMeta('meta[property="og:title"]', 'property', 'og:title', title);
+    upsertMeta('meta[property="og:description"]', 'property', 'og:description', description);
+    upsertMeta('meta[property="og:image"]', 'property', 'og:image', image);
+    upsertMeta('meta[property="og:type"]', 'property', 'og:type', 'product');
+
+    return () => {
+      document.title = originalTitle;
+      upsertMeta('meta[name="description"]', 'name', 'description', originalDescription);
+      upsertMeta('meta[property="og:title"]', 'property', 'og:title', originalOgTitle);
+      upsertMeta('meta[property="og:description"]', 'property', 'og:description', originalOgDescription);
+      upsertMeta('meta[property="og:image"]', 'property', 'og:image', originalOgImage);
+      upsertMeta('meta[property="og:type"]', 'property', 'og:type', 'website');
+    };
+  }, [product, images, seo]);
+
+  useEffect(() => {
+    setActiveImage(0);
+  }, [product?.id]);
 
   if (!product) {
     return (

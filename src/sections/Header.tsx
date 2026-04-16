@@ -44,9 +44,7 @@ export function Header({ cartItems, totalItems, totalPrice, onRemoveFromCart, on
           <EditableLogo dark size="md" />
         </a>
 
-        <div className="hidden md:block text-center flex-1">
-          <p className="text-sm text-gray-500">Catálogo administrable y sincronizado con el panel</p>
-        </div>
+        <div className="flex-1" />
 
         <Sheet>
           <SheetTrigger asChild>
