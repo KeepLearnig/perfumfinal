@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "generate:og": "node scripts/generate-og-data.mjs",
+    "build": "npm run generate:og && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "vercel-build": "vite build"
