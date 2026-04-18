@@ -35,13 +35,15 @@ const entries = Array.isArray(products) ? products.map((product) => {
     id,
     name,
     description: String(product?.description || `${name} disponible en Perfumes CS.`).trim(),
+    shortDescription: String(product?.description || 'Fragancias premium y envíos a todo el país').trim().slice(0, 90),
+    price: Number(product?.price) || undefined,
     image: firstImage(product, fallbackImage),
   };
 }).filter((item) => Number.isFinite(item.id) && item.slug && item.image) : [];
 
 const bySlug = Object.fromEntries(entries.map((item) => [item.slug, item]));
 
-const source = `export interface ProductOgEntry {\n  slug: string;\n  id: number;\n  name: string;\n  description: string;\n  image: string;\n}\n\nexport const productOgData: Record<string, ProductOgEntry> = ${JSON.stringify(bySlug, null, 2)};\n`;
+const source = `export interface ProductOgEntry {\n  slug: string;\n  id: number;\n  name: string;\n  description: string;\n  shortDescription: string;\n  price?: number;\n  image: string;\n}\n\nexport const productOgData: Record<string, ProductOgEntry> = ${JSON.stringify(bySlug, null, 2)};\n`;
 
 fs.writeFileSync(outputPath, source, 'utf8');
 console.log(`Generated OG data for ${entries.length} products -> ${path.relative(root, outputPath)}`);
