@@ -51,9 +51,12 @@ export default function middleware(request: Request) {
   }
 
   const pageUrl = url.toString();
-  const imageUrl = new URL(`/api/og?slug=${encodeURIComponent(slug)}`, url.origin).toString();
-  const title = `${product.name} | Perfumes CS`;
-  const description = product.description || `${product.name} disponible en Perfumes CS.`;
+  const imageUrl = absoluteUrl(url, product.image);
+  const formattedPrice = product.price > 0 ? `$${new Intl.NumberFormat('es-AR').format(product.price)}` : '';
+  const title = `Perfumes CS · ${product.name}`;
+  const description = [formattedPrice, product.category, product.description || 'Envíos a todo el país']
+    .filter(Boolean)
+    .join(' • ');
 
   const html = `<!doctype html>
 <html lang="es">
@@ -67,8 +70,6 @@ export default function middleware(request: Request) {
     <meta property="og:title" content="${escapeHtml(title)}" />
     <meta property="og:description" content="${escapeHtml(description)}" />
     <meta property="og:image" content="${escapeHtml(imageUrl)}" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
     <meta property="og:url" content="${escapeHtml(pageUrl)}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${escapeHtml(title)}" />
