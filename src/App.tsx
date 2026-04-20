@@ -64,6 +64,31 @@ function StoreChrome({ children, cart, hideHero = false }: { children: React.Rea
   );
 }
 
+
+const HOME_BESTSELLER_HINTS = [
+  'ASAD', '9PM', '9AM', 'KHAMRAH', 'YARA', 'HAWAS', 'CLUB DE NUIT', 'ECLAIRE', 'NEBRAS', 'VICTORIOSO', 'ODYSSEY', 'QAED AL FURSAN'
+];
+
+function scoreHomeFeature(product: Product): number {
+  const name = product.name.toUpperCase();
+  let score = 0;
+  score += Math.min(product.stock, 10);
+  if (product.stock > 0) score += 3;
+  if (product.id >= 120) score += 2;
+  if (HOME_BESTSELLER_HINTS.some((hint) => name.includes(hint))) score += 8;
+  if (inferBrand(product) === 'Lattafa') score += 1.5;
+  if (inferBrand(product) === 'Armaf') score += 1.5;
+  return score;
+}
+
+function uniqueById(products: Product[]): Product[] {
+  return Array.from(new Map(products.map((product) => [product.id, product])).values());
+}
+
+function takeForHome(products: Product[], limit = 8): Product[] {
+  return uniqueById(products).filter((product) => product.stock > 0).slice(0, limit);
+}
+
 function StorePage({ cart }: { cart: ReturnType<typeof useCart> }) {
   const { products, categoryCards } = useSite();
   const [activeCategory, setActiveCategory] = useState<CategoryKey>('perfumes');
@@ -77,6 +102,35 @@ function StorePage({ cart }: { cart: ReturnType<typeof useCart> }) {
   const perfumes = products.filter((p) => inferTopLevelCollection(p) === 'perfumes');
   const karsell = products.filter((p) => inferTopLevelCollection(p) === 'karsell');
   const victoriaSecret = products.filter((p) => inferTopLevelCollection(p) === 'victoria-secret');
+
+  const newestProducts = useMemo(
+    () => takeForHome([...products].sort((a, b) => b.id - a.id)),
+    [products],
+  );
+  const bestSellerProducts = useMemo(
+    () => takeForHome([...perfumes].sort((a, b) => scoreHomeFeature(b) - scoreHomeFeature(a) || a.name.localeCompare(b.name))),
+    [perfumes],
+  );
+  const feminineProducts = useMemo(
+    () => takeForHome(
+      [...products]
+        .filter((product) => inferGender(product) === 'Femenino')
+        .sort((a, b) => scoreHomeFeature(b) - scoreHomeFeature(a) || a.name.localeCompare(b.name)),
+    ),
+    [products],
+  );
+  const masculineProducts = useMemo(
+    () => takeForHome(
+      [...products]
+        .filter((product) => inferGender(product) === 'Masculino')
+        .sort((a, b) => scoreHomeFeature(b) - scoreHomeFeature(a) || a.name.localeCompare(b.name)),
+    ),
+    [products],
+  );
+  const victoriaSecretHighlights = useMemo(
+    () => takeForHome([...victoriaSecret].sort((a, b) => scoreHomeFeature(b) - scoreHomeFeature(a) || a.name.localeCompare(b.name))),
+    [victoriaSecret],
+  );
 
   const handleAddToCart = (product: Product) => {
     cart.addToCart(product);
@@ -123,6 +177,54 @@ function StorePage({ cart }: { cart: ReturnType<typeof useCart> }) {
 
   return (
     <StoreChrome cart={cart}>
+
+      <section className="pt-10 pb-4 px-4 md:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="rounded-3xl border bg-gradient-to-br from-neutral-950 via-neutral-900 to-neutral-800 text-white p-6 md:p-8 shadow-sm">
+            <div className="max-w-3xl">
+              <p className="text-sm uppercase tracking-[0.2em] text-white/70 mb-3">Inicio sectorizado</p>
+              <h2 className="text-2xl md:text-4xl font-bold mb-3">Descubrí el catálogo por estilo, marca y ocasión</h2>
+              <p className="text-white/75 text-sm md:text-base">Armé bloques visibles para que el inicio muestre novedades, favoritos y selecciones por perfil. Así el catálogo se siente más ordenado y se navega mejor desde la home.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <ProductGrid
+        products={newestProducts}
+        onAddToCart={handleAddToCart}
+        title="Novedades"
+        subtitle="Lo último que ingresó al catálogo para destacar lanzamientos y nuevas líneas."
+      />
+
+      <ProductGrid
+        products={bestSellerProducts}
+        onAddToCart={handleAddToCart}
+        title="Más buscados"
+        subtitle="Una selección pensada para mostrar fragancias con más salida y mejor gancho comercial."
+      />
+
+      <ProductGrid
+        products={masculineProducts}
+        onAddToCart={handleAddToCart}
+        title="Selección masculina"
+        subtitle="Perfumes con perfil intenso, fresco o elegante para facilitar la compra por segmento."
+      />
+
+      <ProductGrid
+        products={feminineProducts}
+        onAddToCart={handleAddToCart}
+        title="Selección femenina"
+        subtitle="Fragancias dulces, florales y gourmand para regalar o elegir según estilo."
+      />
+
+      <ProductGrid
+        products={victoriaSecretHighlights}
+        onAddToCart={handleAddToCart}
+        title="Victoria's Secret"
+        subtitle="Body mist y lociones destacados para sumar compra impulsiva desde el inicio."
+      />
+
       <section id="productos" className="py-8 px-4 md:px-8 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-2">Nuestros Productos</h2>
@@ -209,7 +311,7 @@ function StorePage({ cart }: { cart: ReturnType<typeof useCart> }) {
         </div>
       </section>
 
-      <ProductGrid products={sorted} onAddToCart={handleAddToCart} />
+      <ProductGrid products={sorted} onAddToCart={handleAddToCart} title="Catálogo general" subtitle="Filtrá y ordená todos los productos desde la sección principal de la tienda." />
       <PromotionsSection />
       <section id="quienes-somos"><Testimonials /></section>
       <section id="faq"><Newsletter /></section>
