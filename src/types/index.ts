@@ -11,14 +11,11 @@ export interface Product {
   images?: string[];
   category?: string;
   brandCategory?: string;
-  genderCategory?: 'Masculino' | 'Femenino' | 'Unisex' | string;
-  tags?: string[];
+  genderCategory?: 'Masculino' | 'Femenino' | 'Unisex';
   relatedIds?: number[];
   badgeText?: string;
-  featured?: boolean;
-  seoTitle?: string;
-  seoDescription?: string;
 }
+
 
 export interface CartItem extends Product {
   quantity: number;

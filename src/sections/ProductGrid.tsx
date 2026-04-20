@@ -2,6 +2,7 @@ import { ShoppingCart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import type { Product } from '@/types';
 import { productPath } from '@/lib/product';
+import { inferBadge, inferBrand, inferCategory, inferGender } from '@/lib/catalog';
 
 interface ProductGridProps {
   products: Product[];
@@ -10,44 +11,79 @@ interface ProductGridProps {
 
 export function ProductGrid({ products, onAddToCart }: ProductGridProps) {
   return (
-    <section>
-      <h2 className="mb-1 text-2xl font-bold">{products.length > 16 ? 'Catálogo completo' : 'Catálogo'}</h2>
-      <p className="mb-6 text-gray-600">Explorá perfumes, body mist, lociones y cuidado capilar.</p>
-
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {products.map((product) => (
-          <div key={product.id} className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
-            <a href={productPath(product)} className="block">
-              <div className="relative aspect-square overflow-hidden bg-gray-50">
-                <img src={product.image} alt={product.name} className="h-full w-full object-cover" />
-                <div className="absolute left-3 top-3 flex flex-wrap gap-2">
-                  {product.stock === 0 ? <span className="rounded-full bg-red-600 px-3 py-1 text-xs font-semibold text-white">SIN STOCK</span> : null}
-                  {product.stock > 0 && product.stock <= 3 ? <span className="rounded-full bg-black px-3 py-1 text-xs font-semibold text-white">ÚLTIMAS</span> : null}
-                  {product.badgeText ? <span className="rounded-full bg-amber-500 px-3 py-1 text-xs font-semibold text-white">{product.badgeText}</span> : null}
-                </div>
-              </div>
-
-              <div className="p-4">
-                <div className="mb-2 flex flex-wrap gap-2 text-xs text-gray-500">
-                  {product.brandCategory ? <span className="rounded-full border px-2 py-1">{product.brandCategory}</span> : null}
-                  {product.category ? <span className="rounded-full border px-2 py-1">{product.category}</span> : null}
-                  {product.genderCategory ? <span className="rounded-full border px-2 py-1">{product.genderCategory}</span> : null}
-                </div>
-                <h3 className="line-clamp-2 min-h-[3.5rem] font-semibold text-gray-900">{product.name}</h3>
-                {product.description ? <p className="mt-2 line-clamp-3 text-sm text-gray-600">{product.description}</p> : null}
-                <div className="mt-3 text-sm text-gray-500">{product.stock === 0 ? 'Agotado' : `${product.stock} disponibles`}</div>
-                <div className="mt-3 text-xl font-bold text-gray-900">${product.price.toLocaleString('es-AR')}</div>
-              </div>
-            </a>
-
-            <div className="p-4 pt-0">
-              <Button className="w-full" onClick={() => onAddToCart(product)} disabled={product.stock === 0}>
-                <ShoppingCart className="mr-2 h-4 w-4" />
-                {product.stock === 0 ? 'Agotado' : 'Comprar'}
-              </Button>
-            </div>
+    <section className="pb-16 px-4 md:px-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="mb-6 flex items-center justify-between gap-3">
+          <div>
+            <h2 className="text-2xl md:text-3xl font-bold text-black">
+              {products.length > 16 ? 'Catálogo Completo' : 'Destacados'}
+            </h2>
+            <p className="text-gray-600 mt-1">Explorá nuestra selección de fragancias y cuidado personal</p>
           </div>
-        ))}
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+          {products.map((product) => (
+            <article key={product.id} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col">
+              <a href={productPath(product)} className="block flex-1">
+                <div className="relative aspect-square overflow-hidden bg-gray-50">
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
+                  {inferBadge(product) && (
+                    <div className={`absolute top-3 right-3 text-white px-2 py-1 rounded-full text-xs font-bold ${product.stock === 0 ? 'bg-red-500' : product.stock <= 3 ? 'bg-amber-500' : 'bg-black'}`}>
+                      {inferBadge(product)?.toUpperCase()}
+                    </div>
+                  )}
+                </div>
+
+                <div className="p-4 flex flex-col flex-1">
+                  <div className="flex flex-wrap gap-1 mb-2">
+                    <span className="text-[11px] px-2 py-1 rounded-full bg-gray-100 text-gray-700">{inferBrand(product)}</span>
+                    <span className="text-[11px] px-2 py-1 rounded-full bg-gray-100 text-gray-700">{inferGender(product)}</span>
+                    <span className="text-[11px] px-2 py-1 rounded-full bg-gray-100 text-gray-700">{inferCategory(product)}</span>
+                  </div>
+                  <h3 className="font-semibold text-sm md:text-base mb-1 text-gray-900 line-clamp-2 min-h-[2.5rem] hover:underline underline-offset-2">
+                    {product.name}
+                  </h3>
+                  {product.description && (
+                    <p className="text-xs text-gray-500 mb-2 line-clamp-2 min-h-[2rem]">{product.description}</p>
+                  )}
+
+                  <div className="flex items-center justify-between text-xs mb-3">
+                    <span className={`px-2 py-1 rounded-full font-medium ${
+                      product.stock === 0
+                        ? 'bg-red-100 text-red-700'
+                        : product.stock <= 3
+                          ? 'bg-amber-100 text-amber-700'
+                          : 'bg-green-100 text-green-700'
+                    }`}>
+                      {product.stock === 0 ? 'Agotado' : `${product.stock} disponibles`}
+                    </span>
+                  </div>
+
+                  <div className="mt-2 space-y-1">
+                    <p className="text-lg font-bold text-black">${product.price.toLocaleString('es-AR')}</p>
+                  </div>
+                </div>
+              </a>
+
+              <div className="px-4 pb-4 pt-1">
+                <Button
+                  className="w-full bg-black hover:bg-gray-800 text-sm"
+                  onClick={() => onAddToCart(product)}
+                  disabled={product.stock === 0}
+                >
+                  <ShoppingCart className="w-4 h-4 mr-2" />
+                  {product.stock === 0 ? 'Agotado' : 'Comprar'}
+                </Button>
+              </div>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );
