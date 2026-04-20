@@ -3,7 +3,7 @@ import { ChevronRight, ShoppingCart, ExternalLink } from 'lucide-react';
 import type { Product } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { getProductImages } from '@/lib/product';
+import { getProductImages, productPath } from '@/lib/product';
 import { useSite } from '@/context/SiteContext';
 
 interface ProductDetailPageProps {
@@ -21,10 +21,47 @@ function upsertMeta(selector: string, attr: 'name' | 'property', value: string, 
   tag.setAttribute('content', content);
 }
 
+function normalizeText(value?: string) {
+  return (value ?? '').trim().toLowerCase();
+}
+
 export default function ProductDetailPage({ product, onAddToCart }: ProductDetailPageProps) {
-  const { seo } = useSite();
+  const { seo, products } = useSite();
   const images = useMemo(() => (product ? getProductImages(product) : []), [product]);
   const [activeImage, setActiveImage] = useState(0);
+
+  const relatedProducts = useMemo(() => {
+    if (!product) return [];
+
+    const currentBrand = normalizeText(product.brandCategory);
+    const currentCategory = normalizeText(product.category);
+    const currentGender = normalizeText(product.genderCategory);
+    const explicitIds = Array.isArray(product.relatedIds) ? product.relatedIds : [];
+
+    const scored = products
+      .filter((item) => item.id !== product.id)
+      .map((item) => {
+        let score = 0;
+        if (explicitIds.includes(item.id)) score += 100;
+        if (currentBrand && normalizeText(item.brandCategory) === currentBrand) score += 5;
+        if (currentCategory && normalizeText(item.category) === currentCategory) score += 3;
+        if (currentGender && normalizeText(item.genderCategory) === currentGender) score += 1;
+        return { item, score };
+      })
+      .filter(({ score }) => score > 0)
+      .sort((a, b) => b.score - a.score || a.item.name.localeCompare(b.item.name))
+      .slice(0, 4)
+      .map(({ item }) => item);
+
+    if (scored.length >= 4) return scored;
+
+    const fallback = products
+      .filter((item) => item.id !== product.id)
+      .filter((item) => !scored.some((related) => related.id === item.id))
+      .slice(0, 4 - scored.length);
+
+    return [...scored, ...fallback];
+  }, [product, products]);
 
   useEffect(() => {
     if (!product) return;
@@ -111,6 +148,11 @@ export default function ProductDetailPage({ product, onAddToCart }: ProductDetai
               <div>
                 <h1 className="text-3xl md:text-4xl font-bold text-black leading-tight">{product.name}</h1>
                 <p className="text-gray-500 mt-2">Fragancia disponible en tienda.</p>
+                <div className="flex flex-wrap gap-2 mt-3">
+                  {product.brandCategory && <Badge variant="outline">{product.brandCategory}</Badge>}
+                  {product.category && <Badge variant="outline">{product.category}</Badge>}
+                  {product.genderCategory && <Badge variant="outline">{product.genderCategory}</Badge>}
+                </div>
               </div>
               {product.stock === 0 ? (
                 <Badge className="bg-red-100 text-red-700 hover:bg-red-100">Agotado</Badge>
@@ -151,6 +193,34 @@ export default function ProductDetailPage({ product, onAddToCart }: ProductDetai
           </div>
         </div>
       </div>
+
+      {relatedProducts.length > 0 && (
+        <section className="mt-12">
+          <div className="flex items-center justify-between gap-3 mb-5">
+            <div>
+              <h2 className="text-2xl font-bold text-black">Productos relacionados</h2>
+              <p className="text-sm text-gray-500">Sugeridos por marca, categoría o segmento similar.</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+            {relatedProducts.map((related) => (
+              <article key={related.id} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col">
+                <a href={productPath(related)} className="block flex-1">
+                  <div className="relative aspect-square overflow-hidden bg-gray-50">
+                    <img src={related.image} alt={related.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    {related.stock === 0 && <div className="absolute top-3 right-3 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-bold">AGOTADO</div>}
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-semibold text-sm md:text-base mb-1 text-gray-900 line-clamp-2 min-h-[2.5rem]">{related.name}</h3>
+                    {related.brandCategory && <p className="text-xs text-gray-500 mb-1">{related.brandCategory}</p>}
+                    <p className="text-lg font-bold text-black">${related.price.toLocaleString('es-AR')}</p>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
     </main>
   );
 }

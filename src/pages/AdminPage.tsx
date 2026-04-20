@@ -121,6 +121,16 @@ function sanitizeExportProducts(products: Product[]): Product[] {
   return products.map((product, index) => {
     const price = Math.max(0, Number(product.price) || 0);
     const installments = Math.max(1, Number(product.installments) || 3);
+    const category = String(product.category ?? '').trim();
+    const brandCategory = String(product.brandCategory ?? '').trim();
+    const genderCategory = String(product.genderCategory ?? '').trim();
+    const tags = Array.isArray(product.tags)
+      ? product.tags.map((tag) => String(tag).trim()).filter(Boolean)
+      : [category, brandCategory, genderCategory].filter(Boolean);
+    const relatedIds = Array.isArray(product.relatedIds)
+      ? product.relatedIds.map((id) => Number(id)).filter((id) => Number.isFinite(id) && id > 0)
+      : [];
+
     return {
       id: Number(product.id) || index + 1,
       name: String(product.name ?? `Producto ${index + 1}`),
@@ -131,6 +141,11 @@ function sanitizeExportProducts(products: Product[]): Product[] {
       installments,
       installmentPrice: Math.max(0, Number(product.installmentPrice) || Math.round(price / installments)),
       description: String(product.description ?? ''),
+      category: category || undefined,
+      brandCategory: brandCategory || undefined,
+      genderCategory: genderCategory || undefined,
+      tags: tags.length > 0 ? Array.from(new Set(tags)) : undefined,
+      relatedIds: relatedIds.length > 0 ? relatedIds : undefined,
     };
   });
 }
@@ -316,7 +331,7 @@ function ProductsTab() {
   const [bulkTarget, setBulkTarget] = useState<'all' | 'perfumes' | 'karsell' | 'vs'>('all');
   const [flash, setFlash] = useState(false);
 
-  const filtered = products.filter(p => p.name.toLowerCase().includes(search.toLowerCase()));
+  const filtered = products.filter((p) => [p.name, p.brandCategory ?? '', p.category ?? '', p.genderCategory ?? ''].some((value) => value.toLowerCase().includes(search.toLowerCase())));
 
   const toggle = (product: Product) => {
     if (expandedId === product.id) {
@@ -330,7 +345,11 @@ function ProductsTab() {
 
   const save = () => {
     if (!editing) return;
-    setAllProducts(products.map(p => p.id === editing.id ? editing : p));
+    const nextProduct: Product = {
+      ...editing,
+      tags: Array.from(new Set([editing.category ?? '', editing.brandCategory ?? '', editing.genderCategory ?? ''].filter(Boolean))),
+    };
+    setAllProducts(products.map((p) => (p.id === nextProduct.id ? nextProduct : p)));
     setExpandedId(null);
     setEditing(null);
   };
@@ -355,6 +374,10 @@ function ProductsTab() {
       stock: 5,
       installments: 3,
       installmentPrice: 3333,
+      category: bulkTarget === 'karsell' ? 'Cuidado Capilar' : bulkTarget === 'vs' ? 'Body Mist' : 'Perfume',
+      brandCategory: bulkTarget === 'karsell' ? 'Karsell' : bulkTarget === 'vs' ? "Victoria's Secret" : 'Sin marca',
+      genderCategory: 'Unisex',
+      tags: bulkTarget === 'karsell' ? ['Cuidado Capilar', 'Karsell', 'Unisex'] : bulkTarget === 'vs' ? ['Body Mist', "Victoria's Secret", 'Femenino'] : ['Perfume', 'Sin marca', 'Unisex'],
     };
     setAllProducts([product, ...products]);
     setExpandedId(product.id);
@@ -366,9 +389,9 @@ function ProductsTab() {
     if (Number.isNaN(value)) return;
     const updated = products.map((product) => {
       const match = bulkTarget === 'all'
-        || (bulkTarget === 'perfumes' && product.id < 200)
-        || (bulkTarget === 'karsell' && product.id >= 200 && product.id < 300)
-        || (bulkTarget === 'vs' && product.id >= 300);
+        || (bulkTarget === 'perfumes' && ((product.category ?? '').toLowerCase() === 'perfume' || (product.id < 200 && !(product.category ?? '').trim())))
+        || (bulkTarget === 'karsell' && (((product.brandCategory ?? '').toLowerCase() === 'karsell') || ((product.category ?? '').toLowerCase() === 'cuidado capilar')))
+        || (bulkTarget === 'vs' && (((product.brandCategory ?? '').toLowerCase() === "victoria's secret") || ((product.id >= 300) && !(product.brandCategory ?? '').trim())));
       if (!match) return product;
       const newPrice = bulkMode === 'percent'
         ? Math.round((product.price * (1 + value / 100)) / 100) * 100
@@ -388,7 +411,7 @@ function ProductsTab() {
 
   return (
     <div className="space-y-5">
-      <SectionTitle title="Productos" sub="Gestioná nombre, imagen, descripción, precio y exportación" />
+      <SectionTitle title="Productos" sub="Gestioná nombre, imagen, descripción, precio, marca, categoría y segmento" />
 
       <div className="rounded-xl border border-amber-200 bg-amber-50 p-4">
         <p className="text-sm font-semibold text-amber-900 mb-3 flex items-center gap-2">
@@ -434,13 +457,14 @@ function ProductsTab() {
         <Button onClick={addProduct} className="bg-gray-900 hover:bg-gray-700 text-white"><Plus className="w-4 h-4 mr-1" />Agregar</Button>
       </div>
 
-      <div className="rounded-xl border bg-blue-50 border-blue-200 p-4 text-sm text-blue-900">
-        Para cambiar imágenes rápido, podés hacerlo de dos formas: desde este panel pegando una URL, o directamente editando la propiedad <strong>image</strong> en <code>src/data/products.ts</code> si querés tocar el código fuente.
+      <div className="rounded-xl border bg-blue-50 border-blue-200 p-4 text-sm text-blue-900 space-y-1">
+        <p>Ahora cada producto puede guardar <strong>marca</strong>, <strong>categoría</strong> y <strong>segmento</strong> para que el home y las fichas queden sectorizadas.</p>
+        <p>Para cambiar imágenes rápido, podés hacerlo desde este panel pegando una URL o editando el JSON exportado.</p>
       </div>
 
       <div className="space-y-2">
         {filtered.map(product => (
-          <ExpandRow key={product.id} label={product.name} sub={`$${product.price.toLocaleString('es-AR')} — stock: ${product.stock}`} img={product.image}
+          <ExpandRow key={product.id} label={product.name} sub={`$${product.price.toLocaleString('es-AR')} — ${product.brandCategory ?? 'Sin marca'} — ${product.category ?? 'Sin categoría'} — stock: ${product.stock}`} img={product.image}
             expanded={expandedId === product.id} onToggle={() => toggle(product)} onDelete={() => del(product.id)}>
             {editing && editing.id === product.id && (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -478,6 +502,31 @@ function ProductsTab() {
                       setEditing({ ...editing, images, image: images[0] ?? editing.image });
                     }}
                     placeholder="https://imagen1.jpg\nhttps://imagen2.jpg" />
+                </div>
+                <div>
+                  <label className="text-xs font-medium text-gray-600 block mb-1">Marca</label>
+                  <Input value={editing.brandCategory ?? ''} onChange={e => setEditing({ ...editing, brandCategory: e.target.value })} placeholder="Lattafa / Armaf / Victoria's Secret" />
+                </div>
+                <div>
+                  <label className="text-xs font-medium text-gray-600 block mb-1">Categoría</label>
+                  <select className="w-full h-10 px-3 border rounded-lg bg-white text-sm" value={editing.category ?? 'Perfume'} onChange={e => setEditing({ ...editing, category: e.target.value })}>
+                    <option value="Perfume">Perfume</option>
+                    <option value="Body Mist">Body Mist</option>
+                    <option value="Loción Corporal">Loción Corporal</option>
+                    <option value="Cuidado Capilar">Cuidado Capilar</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="text-xs font-medium text-gray-600 block mb-1">Segmento</label>
+                  <select className="w-full h-10 px-3 border rounded-lg bg-white text-sm" value={editing.genderCategory ?? 'Unisex'} onChange={e => setEditing({ ...editing, genderCategory: e.target.value as Product['genderCategory'] })}>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Unisex">Unisex</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="text-xs font-medium text-gray-600 block mb-1">Relacionados (IDs separados por coma)</label>
+                  <Input value={(editing.relatedIds ?? []).join(', ')} onChange={e => setEditing({ ...editing, relatedIds: e.target.value.split(',').map((item) => Number(item.trim())).filter((item) => Number.isFinite(item) && item > 0) })} placeholder="12, 33, 41" />
                 </div>
                 <div className="sm:col-span-2">
                   <label className="text-xs font-medium text-gray-600 block mb-1">Descripción</label>

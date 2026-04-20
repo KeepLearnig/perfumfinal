@@ -202,6 +202,15 @@ function sanitizeProduct(raw: unknown, fallbackId: number): Product {
     ? source.images.map((item) => String(item).trim()).filter(Boolean)
     : [];
   const images = Array.from(new Set([image, ...extraImages])).filter(Boolean);
+  const category = typeof source.category === 'string' ? source.category.trim() : '';
+  const brandCategory = typeof source.brandCategory === 'string' ? source.brandCategory.trim() : '';
+  const genderCategory = typeof source.genderCategory === 'string' ? source.genderCategory.trim() : '';
+  const tags = Array.isArray(source.tags)
+    ? source.tags.map((item) => String(item).trim()).filter(Boolean)
+    : [category, brandCategory, genderCategory].filter(Boolean);
+  const relatedIds = Array.isArray(source.relatedIds)
+    ? source.relatedIds.map((item) => Number(item)).filter((item) => Number.isFinite(item) && item > 0)
+    : [];
   return {
     id: asSafeNumber(source.id, fallbackId, 1),
     name: asNonEmptyString(source.name, `Producto ${fallbackId}`),
@@ -213,6 +222,11 @@ function sanitizeProduct(raw: unknown, fallbackId: number): Product {
     installments,
     installmentPrice: asSafeNumber(source.installmentPrice, Math.round(price / installments), 0),
     description: typeof source.description === 'string' ? source.description : '',
+    category: category || undefined,
+    brandCategory: brandCategory || undefined,
+    genderCategory: genderCategory || undefined,
+    tags: tags.length > 0 ? Array.from(new Set(tags)) : undefined,
+    relatedIds: relatedIds.length > 0 ? relatedIds : undefined,
   };
 }
 

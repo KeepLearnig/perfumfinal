@@ -9,8 +9,12 @@ export interface Product {
   installmentPrice: number;
   description?: string;
   images?: string[];
+  category?: string;
+  brandCategory?: string;
+  genderCategory?: "Masculino" | "Femenino" | "Unisex" | string;
+  tags?: string[];
+  relatedIds?: number[];
 }
-
 
 export interface CartItem extends Product {
   quantity: number;
