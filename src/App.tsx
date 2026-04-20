@@ -17,180 +17,120 @@ import { Toaster } from '@/components/ui/sonner';
 import { toast } from 'sonner';
 import type { Product } from '@/types';
 import { Button } from '@/components/ui/button';
-import { Search, ChevronDown, Sparkles, Heart, Droplets, Tag, Venus, Mars, Circle } from 'lucide-react';
+import { Search, Sparkles, Layers3, Users, ShieldCheck, FilterX } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { getProductIdFromPath } from '@/lib/product';
 
-const GRADIENT: Record<string, string> = {
-  amber: 'from-amber-900 to-amber-700',
-  purple: 'from-purple-900 to-purple-700',
-  pink: 'from-pink-600 to-rose-500',
-  blue: 'from-blue-900 to-blue-700',
-  green: 'from-green-900 to-green-700',
-};
-
-const BORDER_HOVER: Record<string, string> = {
-  amber: 'hover:border-amber-300',
-  purple: 'hover:border-purple-300',
-  pink: 'hover:border-pink-300',
-  blue: 'hover:border-blue-300',
-  green: 'hover:border-green-300',
-};
-
-const BADGE_BG: Record<string, string> = {
-  amber: 'bg-amber-500',
-  purple: 'bg-purple-500',
-  pink: 'bg-pink-500',
-  blue: 'bg-blue-500',
-  green: 'bg-green-500',
-};
-
-const CATEGORY_COLORS = ['amber', 'purple', 'pink', 'blue', 'green'] as const;
-
-const SparklesIcon = ({ className }: { className?: string }) => <Sparkles className={className} />;
-const DropletsIcon = ({ className }: { className?: string }) => <Droplets className={className} />;
-const HeartIcon = ({ className }: { className?: string }) => <Heart className={className} />;
-const TagIcon = ({ className }: { className?: string }) => <Tag className={className} />;
-
-function normalizeText(value?: string) {
-  return (value ?? '').trim();
-}
-
-function getProductCategory(product: Product) {
-  return normalizeText(product.category) || 'Perfume';
-}
-
-function getProductBrand(product: Product) {
-  return normalizeText(product.brandCategory) || 'Sin marca';
-}
-
-function getProductGender(product: Product) {
-  const gender = normalizeText(product.genderCategory);
-  return gender || 'Unisex';
-}
-
-function getCategoryMeta(name: string, index: number) {
-  const lower = name.toLowerCase();
-  const color = CATEGORY_COLORS[index % CATEGORY_COLORS.length];
-
-  if (lower.includes('mist')) {
-    return {
-      color,
-      badge: 'Body Care',
-      description: 'Brumas corporales y fragancias ligeras.',
-      Icon: HeartIcon,
-    };
-  }
-
-  if (lower.includes('loción') || lower.includes('locion') || lower.includes('capilar')) {
-    return {
-      color,
-      badge: 'Cuidado',
-      description: 'Lociones y productos de cuidado personal.',
-      Icon: DropletsIcon,
-    };
-  }
-
-  return {
-    color,
-    badge: 'Fragancias',
-    description: 'Perfumes y aromas destacados del catálogo.',
-    Icon: SparklesIcon,
-  };
-}
-
 function StoreChrome({ children, cart, hideHero = false }: { children: React.ReactNode; cart: ReturnType<typeof useCart>; hideHero?: boolean }) {
   const { slides } = useSite();
-
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white text-black">
       <AnnouncementBar />
       <Header
-        cartItems={cart.cartItems}
-        totalItems={cart.totalItems}
-        totalPrice={cart.totalPrice}
-        totalTransferPrice={cart.totalTransferPrice}
+        cart={cart.cart}
         onRemoveFromCart={cart.removeFromCart}
         onUpdateQuantity={cart.updateQuantity}
+        getTotalPrice={cart.getTotalPrice}
       />
       <Navigation />
-      <main>
-        {!hideHero && <HeroBanner slides={slides} />}
-        {children}
-      </main>
+      {!hideHero && <HeroBanner slides={slides} />}
+      {children}
+      <PromotionsSection />
+      <Testimonials />
+      <Newsletter />
       <Footer />
       <WhatsAppButton />
-      <Toaster position="bottom-right" richColors closeButton expand visibleToasts={3} />
+      <Toaster />
     </div>
   );
+}
+
+function MetricCard({ label, value, help }: { label: string; value: string; help: string }) {
+  return (
+    <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
+      <div className="text-xs font-medium uppercase tracking-wide text-gray-500">{label}</div>
+      <div className="mt-2 text-2xl font-bold text-gray-900">{value}</div>
+      <div className="mt-1 text-sm text-gray-500">{help}</div>
+    </div>
+  );
+}
+
+function useCatalogMetrics(products: Product[]) {
+  return useMemo(() => {
+    const inStock = products.filter((p) => p.stock > 0).length;
+    const outOfStock = products.filter((p) => p.stock === 0).length;
+    const brands = new Set(products.map((p) => p.brandCategory).filter(Boolean));
+    const missingDescriptions = products.filter((p) => !(p.description ?? '').trim()).length;
+    return {
+      total: products.length,
+      inStock,
+      outOfStock,
+      brands: brands.size,
+      missingDescriptions,
+    };
+  }, [products]);
 }
 
 function StorePage({ cart }: { cart: ReturnType<typeof useCart> }) {
   const { products } = useSite();
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState<'name' | 'price-low' | 'price-high'>('name');
-  const [activeCategory, setActiveCategory] = useState('');
-  const [activeBrand, setActiveBrand] = useState('Todas');
-  const [activeGender, setActiveGender] = useState('Todos');
+  const [brandFilter, setBrandFilter] = useState('Todas');
+  const [categoryFilter, setCategoryFilter] = useState('Todas');
+  const [genderFilter, setGenderFilter] = useState('Todos');
+  const [stockFilter, setStockFilter] = useState<'todos' | 'en-stock' | 'sin-stock'>('todos');
+  const [featuredOnly, setFeaturedOnly] = useState(false);
 
-  const categoryCards = useMemo(() => {
-    const counts = new Map<string, number>();
-    products.forEach((product) => {
-      const category = getProductCategory(product);
-      counts.set(category, (counts.get(category) ?? 0) + 1);
-    });
+  const metrics = useCatalogMetrics(products);
 
-    return Array.from(counts.entries()).map(([name, count], index) => ({
-      id: name,
-      label: name,
-      count,
-      ...getCategoryMeta(name, index),
-    }));
-  }, [products]);
-
-  useEffect(() => {
-    if (!activeCategory && categoryCards.length > 0) {
-      setActiveCategory(categoryCards[0].id);
-    }
-  }, [activeCategory, categoryCards]);
-
-  const availableBrands = useMemo(() => {
-    const values = Array.from(new Set(products.map(getProductBrand))).filter(Boolean).sort((a, b) => a.localeCompare(b));
-    return ['Todas', ...values];
-  }, [products]);
-
-  const availableGenders = useMemo(() => {
-    const values = Array.from(new Set(products.map(getProductGender))).filter(Boolean);
-    const ordered = ['Masculino', 'Femenino', 'Unisex'].filter((item) => values.includes(item));
-    const extras = values.filter((item) => !ordered.includes(item)).sort((a, b) => a.localeCompare(b));
-    return ['Todos', ...ordered, ...extras];
-  }, [products]);
+  const brands = useMemo(
+    () => ['Todas', ...Array.from(new Set(products.map((p) => p.brandCategory).filter(Boolean) as string[])).sort((a, b) => a.localeCompare(b))],
+    [products],
+  );
+  const categories = useMemo(
+    () => ['Todas', ...Array.from(new Set(products.map((p) => p.category).filter(Boolean) as string[])).sort((a, b) => a.localeCompare(b))],
+    [products],
+  );
+  const genders = useMemo(
+    () => ['Todos', ...Array.from(new Set(products.map((p) => p.genderCategory).filter(Boolean) as string[])).sort((a, b) => a.localeCompare(b))],
+    [products],
+  );
 
   const filteredProducts = useMemo(() => {
-    const activeCategoryValue = activeCategory || categoryCards[0]?.id || '';
+    const search = searchQuery.trim().toLowerCase();
 
-    return products
-      .filter((product) => !activeCategoryValue || getProductCategory(product) === activeCategoryValue)
-      .filter((product) => activeBrand === 'Todas' || getProductBrand(product) === activeBrand)
-      .filter((product) => activeGender === 'Todos' || getProductGender(product) === activeGender)
+    return [...products]
       .filter((product) => {
-        const q = searchQuery.trim().toLowerCase();
-        if (!q) return true;
-        return [
+        if (brandFilter !== 'Todas' && product.brandCategory !== brandFilter) return false;
+        if (categoryFilter !== 'Todas' && product.category !== categoryFilter) return false;
+        if (genderFilter !== 'Todos' && product.genderCategory !== genderFilter) return false;
+        if (stockFilter === 'en-stock' && product.stock <= 0) return false;
+        if (stockFilter === 'sin-stock' && product.stock > 0) return false;
+        if (featuredOnly && !product.featured) return false;
+
+        if (!search) return true;
+
+        const haystack = [
           product.name,
-          product.description ?? '',
-          getProductBrand(product),
-          getProductCategory(product),
-          getProductGender(product),
-        ].some((value) => value.toLowerCase().includes(q));
+          product.description,
+          product.brandCategory,
+          product.category,
+          product.genderCategory,
+          ...(product.tags ?? []),
+        ]
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase();
+
+        return haystack.includes(search);
       })
       .sort((a, b) => {
         if (sortBy === 'price-low') return a.price - b.price;
         if (sortBy === 'price-high') return b.price - a.price;
         return a.name.localeCompare(b.name);
       });
-  }, [products, activeCategory, activeBrand, activeGender, searchQuery, sortBy, categoryCards]);
+  }, [products, searchQuery, brandFilter, categoryFilter, genderFilter, stockFilter, featuredOnly, sortBy]);
 
   const handleAddToCart = (product: Product) => {
     cart.addToCart(product);
@@ -200,135 +140,150 @@ function StorePage({ cart }: { cart: ReturnType<typeof useCart> }) {
     });
   };
 
-  const activeCategoryLabel = activeCategory || categoryCards[0]?.label || 'Catálogo';
+  const clearFilters = () => {
+    setSearchQuery('');
+    setBrandFilter('Todas');
+    setCategoryFilter('Todas');
+    setGenderFilter('Todos');
+    setStockFilter('todos');
+    setFeaturedOnly(false);
+  };
 
   return (
     <StoreChrome cart={cart}>
-      <section id="productos" className="py-8 px-4 md:px-8 bg-gradient-to-b from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-2">Nuestros Productos</h2>
-          <p className="text-gray-600 text-center mb-8">Filtrá por categoría, marca o segmento para navegar mejor el catálogo.</p>
+      <section id="productos" className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+        <div className="mb-8 grid gap-4 md:grid-cols-5">
+          <MetricCard label="Productos" value={String(metrics.total)} help="Catálogo cargado" />
+          <MetricCard label="Con stock" value={String(metrics.inStock)} help="Listos para vender" />
+          <MetricCard label="Sin stock" value={String(metrics.outOfStock)} help="Necesitan reposición" />
+          <MetricCard label="Marcas" value={String(metrics.brands)} help="Segmentación activa" />
+          <MetricCard label="Sin descripción" value={String(metrics.missingDescriptions)} help="Conviene completarlos" />
+        </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-8">
-            {categoryCards.map((cat) => {
-              const isActive = activeCategory === cat.id;
-              const IconComp = cat.Icon ?? TagIcon;
+        <div className="rounded-3xl border border-gray-200 bg-gray-50 p-5 shadow-sm">
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <div className="flex items-center gap-2 text-sm font-medium text-gray-700">
+                <Sparkles className="h-4 w-4" />
+                Catálogo inteligente
+              </div>
+              <h2 className="mt-2 text-2xl font-bold">Filtrá por marca, tipo y segmento</h2>
+              <p className="mt-1 text-sm text-gray-600">
+                La tienda ahora trabaja con categorías reales del JSON, no por rangos de ID.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline" className="rounded-full px-3 py-1">Búsqueda por nombre, marca y descripción</Badge>
+              <Badge variant="outline" className="rounded-full px-3 py-1">Badges automáticos</Badge>
+              <Badge variant="outline" className="rounded-full px-3 py-1">Listo para relacionados</Badge>
+            </div>
+          </div>
 
+          <div className="mt-6 grid gap-3 md:grid-cols-2 xl:grid-cols-6">
+            <div className="relative xl:col-span-2">
+              <Search className="pointer-events-none absolute left-3 top-3 h-4 w-4 text-gray-400" />
+              <Input
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Buscar perfume, marca, notas, género..."
+                className="pl-9"
+              />
+            </div>
+
+            <select value={brandFilter} onChange={(e) => setBrandFilter(e.target.value)} className="h-10 rounded-md border border-gray-200 bg-white px-3 text-sm">
+              {brands.map((item) => <option key={item}>{item}</option>)}
+            </select>
+
+            <select value={categoryFilter} onChange={(e) => setCategoryFilter(e.target.value)} className="h-10 rounded-md border border-gray-200 bg-white px-3 text-sm">
+              {categories.map((item) => <option key={item}>{item}</option>)}
+            </select>
+
+            <select value={genderFilter} onChange={(e) => setGenderFilter(e.target.value)} className="h-10 rounded-md border border-gray-200 bg-white px-3 text-sm">
+              {genders.map((item) => <option key={item}>{item}</option>)}
+            </select>
+
+            <select value={stockFilter} onChange={(e) => setStockFilter(e.target.value as typeof stockFilter)} className="h-10 rounded-md border border-gray-200 bg-white px-3 text-sm">
+              <option value="todos">Todo el stock</option>
+              <option value="en-stock">Solo con stock</option>
+              <option value="sin-stock">Solo sin stock</option>
+            </select>
+          </div>
+
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <Button variant={featuredOnly ? 'default' : 'outline'} size="sm" onClick={() => setFeaturedOnly((prev) => !prev)}>
+              <ShieldCheck className="mr-2 h-4 w-4" />
+              Destacados
+            </Button>
+
+            <select value={sortBy} onChange={(e) => setSortBy(e.target.value as typeof sortBy)} className="h-9 rounded-md border border-gray-200 bg-white px-3 text-sm">
+              <option value="name">Ordenar por nombre</option>
+              <option value="price-low">Precio: menor a mayor</option>
+              <option value="price-high">Precio: mayor a menor</option>
+            </select>
+
+            <Button variant="ghost" size="sm" onClick={clearFilters}>
+              <FilterX className="mr-2 h-4 w-4" />
+              Limpiar filtros
+            </Button>
+
+            <div className="ml-auto text-sm text-gray-500">
+              {filteredProducts.length} resultado{filteredProducts.length !== 1 ? 's' : ''}
+            </div>
+          </div>
+
+          <div className="mt-5 flex flex-wrap gap-2">
+            {categories.filter((item) => item !== 'Todas').map((item) => {
+              const count = products.filter((product) => product.category === item).length;
               return (
                 <button
-                  key={cat.id}
-                  onClick={() => setActiveCategory(cat.id)}
-                  className={`relative overflow-hidden rounded-xl p-6 text-left transition-all ${
-                    isActive
-                      ? `bg-gradient-to-br ${GRADIENT[cat.color] ?? 'from-gray-900 to-gray-700'} text-white shadow-lg scale-[1.02]`
-                      : `bg-white border-2 border-gray-100 ${BORDER_HOVER[cat.color] ?? ''} hover:shadow-md`
+                  key={item}
+                  type="button"
+                  onClick={() => setCategoryFilter(item)}
+                  className={`rounded-full border px-3 py-1 text-sm transition ${
+                    categoryFilter === item ? 'border-black bg-black text-white' : 'border-gray-200 bg-white text-gray-700'
                   }`}
                 >
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <IconComp className={`w-8 h-8 mb-3 ${isActive ? 'text-white/70' : 'text-gray-600'}`} />
-                      <h3 className="text-xl font-bold mb-1">{cat.label}</h3>
-                      <p className={`text-sm ${isActive ? 'text-white/70' : 'text-gray-500'}`}>{cat.count} productos</p>
-                      <p className={`text-sm mt-2 ${isActive ? 'text-white/80' : 'text-gray-600'}`}>{cat.description}</p>
-                    </div>
-                    <Badge className={isActive ? (BADGE_BG[cat.color] ?? 'bg-gray-500') : 'bg-gray-200 text-gray-700'}>
-                      {cat.badge}
-                    </Badge>
-                  </div>
+                  {item} <span className="ml-1 opacity-70">({count})</span>
                 </button>
               );
             })}
           </div>
+        </div>
 
-          <div className="bg-white rounded-xl shadow-sm border p-4 mb-6 space-y-4">
-            <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
-              <div className="flex items-center gap-3 flex-wrap">
-                <h3 className="font-semibold text-lg">{activeCategoryLabel}</h3>
-                <Badge variant="secondary">{filteredProducts.length} productos</Badge>
-                <Badge variant="outline" className="gap-1"><Tag className="w-3 h-3" />{activeBrand}</Badge>
-                <Badge variant="outline" className="gap-1">
-                  {activeGender === 'Masculino' ? <Mars className="w-3 h-3" /> : activeGender === 'Femenino' ? <Venus className="w-3 h-3" /> : <Circle className="w-3 h-3" />}
-                  {activeGender}
-                </Badge>
-              </div>
+        <div className="mt-8">
+          <ProductGrid products={filteredProducts} onAddToCart={handleAddToCart} />
+        </div>
 
-              <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
-                  <Input
-                    type="text"
-                    placeholder="Buscar producto..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="pl-10 w-full sm:w-60"
-                  />
-                </div>
-                <div className="relative">
-                  <select
-                    value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value as typeof sortBy)}
-                    className="w-full sm:w-48 h-10 px-3 border rounded-md bg-white text-sm appearance-none cursor-pointer"
-                  >
-                    <option value="name">Ordenar por nombre</option>
-                    <option value="price-low">Precio: menor a mayor</option>
-                    <option value="price-high">Precio: mayor a menor</option>
-                  </select>
-                  <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
-                </div>
-              </div>
+        <div className="mt-10 grid gap-4 md:grid-cols-3">
+          <div className="rounded-2xl border border-gray-200 p-5">
+            <div className="flex items-center gap-2 text-sm font-semibold text-gray-700">
+              <Layers3 className="h-4 w-4" />
+              Segmentación activa
             </div>
-
-            <div className="grid lg:grid-cols-[1fr_1fr] gap-4 border-t pt-4">
-              <div>
-                <p className="text-sm font-medium text-gray-700 mb-2">Marcas</p>
-                <div className="flex flex-wrap gap-2">
-                  {availableBrands.map((brand) => (
-                    <Button
-                      key={brand}
-                      type="button"
-                      size="sm"
-                      variant={activeBrand === brand ? 'default' : 'outline'}
-                      className={activeBrand === brand ? 'bg-black hover:bg-gray-800' : ''}
-                      onClick={() => setActiveBrand(brand)}
-                    >
-                      {brand}
-                    </Button>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <p className="text-sm font-medium text-gray-700 mb-2">Segmento</p>
-                <div className="flex flex-wrap gap-2">
-                  {availableGenders.map((gender) => (
-                    <Button
-                      key={gender}
-                      type="button"
-                      size="sm"
-                      variant={activeGender === gender ? 'default' : 'outline'}
-                      className={activeGender === gender ? 'bg-black hover:bg-gray-800' : ''}
-                      onClick={() => setActiveGender(gender)}
-                    >
-                      {gender}
-                    </Button>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {searchQuery && (
-            <p className="mb-4 text-sm text-gray-600">
-              {filteredProducts.length} resultado{filteredProducts.length !== 1 ? 's' : ''} para "{searchQuery}"
+            <p className="mt-2 text-sm text-gray-600">
+              Usá marca, categoría y género para ordenar mejor el catálogo y encontrar productos más rápido.
             </p>
-          )}
+          </div>
+          <div className="rounded-2xl border border-gray-200 p-5">
+            <div className="flex items-center gap-2 text-sm font-semibold text-gray-700">
+              <Users className="h-4 w-4" />
+              Relacionados automáticos
+            </div>
+            <p className="mt-2 text-sm text-gray-600">
+              Cada ficha puede sugerir productos de la misma marca, género o categoría sin cargar todo a mano.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-gray-200 p-5">
+            <div className="flex items-center gap-2 text-sm font-semibold text-gray-700">
+              <Sparkles className="h-4 w-4" />
+              Mejor conversión
+            </div>
+            <p className="mt-2 text-sm text-gray-600">
+              Los badges de “Nuevo”, “Últimas unidades” y “Sin stock” ayudan a dar contexto y mover ventas.
+            </p>
+          </div>
         </div>
       </section>
-
-      <ProductGrid products={filteredProducts} onAddToCart={handleAddToCart} />
-      <PromotionsSection />
-      <section id="quienes-somos"><Testimonials /></section>
-      <section id="faq"><Newsletter /></section>
     </StoreChrome>
   );
 }
@@ -358,9 +313,9 @@ function Router() {
   const cart = useCart();
 
   useEffect(() => {
-    const h = () => setPath(window.location.pathname);
-    window.addEventListener('popstate', h);
-    return () => window.removeEventListener('popstate', h);
+    const handler = () => setPath(window.location.pathname);
+    window.addEventListener('popstate', handler);
+    return () => window.removeEventListener('popstate', handler);
   }, []);
 
   if (path === '/admin' || path === '/admin/') return <AdminPage />;

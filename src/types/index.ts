@@ -11,9 +11,13 @@ export interface Product {
   images?: string[];
   category?: string;
   brandCategory?: string;
-  genderCategory?: "Masculino" | "Femenino" | "Unisex" | string;
+  genderCategory?: 'Masculino' | 'Femenino' | 'Unisex' | string;
   tags?: string[];
   relatedIds?: number[];
+  badgeText?: string;
+  featured?: boolean;
+  seoTitle?: string;
+  seoDescription?: string;
 }
 
 export interface CartItem extends Product {
