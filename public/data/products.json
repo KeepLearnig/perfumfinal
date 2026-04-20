@@ -8,7 +8,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 24000,
-    "description": "Descubrí 9AM, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos brillantes, frutas frescas, maderas suaves"
+    "description": "Descubrí 9AM, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 24000,
-    "description": "Descubrí 9AM DIVE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: bergamota fresca, acordes marinos, maderas limpias"
+    "description": "Descubrí 9AM DIVE, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí 9PM, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: manzana especiada, lavanda, vainilla cálida"
+    "description": "Descubrí 9PM, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 30000,
-    "description": "Descubrí 9PM ELIXIR, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: vainilla intensa, ámbar oscuro, especias dulces"
+    "description": "Descubrí 9PM ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 42000,
-    "description": "Descubrí 9PM NIGHT OUT, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas oscuras, especias cálidas, ámbar sensual"
+    "description": "Descubrí 9PM NIGHT OUT, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí 9PM REBEL, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos vibrantes, especias modernas, maderas ámbar"
+    "description": "Descubrí 9PM REBEL, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí 9PM PURPLE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas moradas, lavanda suave, vainilla cremosa"
+    "description": "Descubrí 9PM PURPLE, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí 9AM POUR FEMME, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas luminosas, flores blancas, musk suave"
+    "description": "Descubrí 9AM POUR FEMME, una fragancia femenina y elegante que deja una estela atractiva y fácil de recordar. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 29000,
-    "description": "Descubrí AFNAN TUTRATHI ELECTRIC, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos energéticos, especias limpias, maderas modernas"
+    "description": "Descubrí AFNAN TUTRATHI ELECTRIC, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ALAHAMBRA ROSE SEDUCTION, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: rosa aterciopelada, frutas rojas, musk delicado"
+    "description": "Descubrí ALAHAMBRA ROSE SEDUCTION, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí ALHAMBRA VICTORIOSO, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas suaves, especias elegantes, maderas cálidas"
+    "description": "Descubrí ALHAMBRA VICTORIOSO, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 39000,
-    "description": "Descubrí AL HARAMAIN GOLD, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas dulces, vainilla cremosa, ámbar dorado"
+    "description": "Descubrí AL HARAMAIN GOLD, una fragancia elegante y envolvente pensada para destacar desde la primera aplicación. Su perfil combina ámbar dorado , vainilla suave y maderas cálidas, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: ámbar dorado, vainilla suave, maderas cálidas"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 35000,
-    "description": "Descubrí AL HARAMAIN DUBAI NIGHT, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias intensas, flores oscuras, ámbar cálido"
+    "description": "Descubrí AL HARAMAIN DUBAI NIGHT, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 38000,
-    "description": "Descubrí AL HARAMAIN AQUA DUBAI, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos frescos, acordes marinos, maderas suaves"
+    "description": "Descubrí AL HARAMAIN AQUA DUBAI, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí AL NOBLE SAFEER, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: hierbas aromáticas, maderas secas, ámbar elegante"
+    "description": "Descubrí AL NOBLE SAFEER, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí AL NOBLE WAZZER, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias suaves, oud delicado, maderas cálidas"
+    "description": "Descubrí AL NOBLE WAZZER, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 17,
@@ -184,7 +184,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí AL NOBLE AMEER, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas especiadas, ámbar, maderas profundas"
+    "description": "Descubrí AL NOBLE AMEER, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 18,
@@ -195,7 +195,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 23000,
-    "description": "Descubrí AL OUD NOBLE BLUSH, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: rosa suave, oud delicado, ámbar cremoso"
+    "description": "Descubrí AL OUD NOBLE BLUSH, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 13000,
-    "description": "Descubrí AL WATANIAH ROSE MISTERY, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: rosa intensa, frutas rojas, musk aterciopelado"
+    "description": "Descubrí AL WATANIAH ROSE MISTERY, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 20,
@@ -217,7 +217,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 12000,
-    "description": "Descubrí AMERAT PRIV RED, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas rojas, flores dulces, vainilla suave"
+    "description": "Descubrí AMERAT PRIV RED, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 21,
@@ -228,7 +228,7 @@
     "stock": 9,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí AMERAT PRIV ROSE, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: rosa moderna, frutas suaves, musk limpio"
+    "description": "Descubrí AMERAT PRIV ROSE, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 22,
@@ -239,7 +239,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí AMETHYST, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: rosa oscura, pimienta suave, ámbar elegante"
+    "description": "Descubrí AMETHYST, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 23,
@@ -250,7 +250,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí ASAD, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: especias cálidas, vainilla ahumada, maderas intensas"
+    "description": "Descubrí ASAD, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 24,
@@ -261,7 +261,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí ASAD ELIXIR, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: canela dulce, ámbar oscuro, vainilla intensa"
+    "description": "Descubrí ASAD ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 25,
@@ -272,7 +272,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí ASAD BOURBON, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: bourbon cremoso, especias cálidas, maderas oscuras"
+    "description": "Descubrí ASAD BOURBON, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 26,
@@ -283,7 +283,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ASAD ZANZÍBAR LIMITED, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: especias exóticas, maderas cálidas, ámbar sensual"
+    "description": "Descubrí ASAD ZANZÍBAR LIMITED, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 27,
@@ -294,7 +294,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí BAD FEMME, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: flores blancas, vainilla suave, frutas dulces"
+    "description": "Descubrí BAD FEMME, una fragancia femenina y elegante que deja una estela atractiva y fácil de recordar. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 28,
@@ -305,7 +305,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí BAD HOMME, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: cítricos intensos, especias secas, maderas masculinas"
+    "description": "Descubrí BAD HOMME, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 29,
@@ -316,7 +316,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí BADEE AL OUD FOR GLORY, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: oud elegante, azafrán, ámbar profundo"
+    "description": "Descubrí BADEE AL OUD FOR GLORY, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 30,
@@ -327,7 +327,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 44000,
-    "description": "Descubrí BHARARA KING, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos brillantes, frutas jugosas, maderas refinadas"
+    "description": "Descubrí BHARARA KING, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 31,
@@ -338,7 +338,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí CONFIDENTIAL GOLD, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas dulces, flores suaves, ámbar dorado"
+    "description": "Descubrí CONFIDENTIAL GOLD, una fragancia elegante y envolvente pensada para destacar desde la primera aplicación. Su perfil combina ámbar dorado , vainilla suave y maderas cálidas, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: ámbar dorado, vainilla suave, maderas cálidas"
   },
   {
     "id": 32,
@@ -349,7 +349,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí CONFIDENTIAL PLATINUM, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos limpios, especias suaves, maderas elegantes"
+    "description": "Descubrí CONFIDENTIAL PLATINUM, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 33,
@@ -360,7 +360,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí CHANTS TENDERINA, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: flores luminosas, frutas suaves, musk limpio"
+    "description": "Descubrí CHANTS TENDERINA, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 34,
@@ -371,7 +371,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí CLUB DE NUIT MALEKA, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: frutas dulces, flores elegantes, ámbar cremoso"
+    "description": "Descubrí CLUB DE NUIT MALEKA, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 35,
@@ -382,7 +382,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 37000,
-    "description": "Descubrí CLUB DE NUIT PRECIEUX, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos finos, maderas elegantes, ámbar suave"
+    "description": "Descubrí CLUB DE NUIT PRECIEUX, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 36,
@@ -393,7 +393,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí CLUB DE NUIT UNTOLD, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: azafrán dulce, ámbar radiante, maderas blancas"
+    "description": "Descubrí CLUB DE NUIT UNTOLD, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 37,
@@ -404,7 +404,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí CLUB DE NUIT URBAN ELIXIR, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos vibrantes, especias modernas, ámbar urbano"
+    "description": "Descubrí CLUB DE NUIT URBAN ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 38,
@@ -415,7 +415,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí CLUB DE NUIT WOMAN, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas cítricas, rosa suave, patchouli delicado"
+    "description": "Descubrí CLUB DE NUIT WOMAN, una fragancia femenina y elegante que deja una estela atractiva y fácil de recordar. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 39,
@@ -426,7 +426,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí CLUB DE NUIT SILLAGE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: bergamota brillante, té suave, musk metálico limpio"
+    "description": "Descubrí CLUB DE NUIT SILLAGE, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 40,
@@ -437,7 +437,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí CLUB DE NUIT INTENSE, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: limón vibrante, piña, maderas ahumadas"
+    "description": "Descubrí CLUB DE NUIT INTENSE, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 41,
@@ -448,7 +448,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí COCOA MORADO, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cacao cremoso, frutas oscuras, vainilla envolvente"
+    "description": "Descubrí COCOA MORADO, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 42,
@@ -459,7 +459,7 @@
     "stock": 9,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí EXQUISITE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: flores cremosas, frutas dulces, vainilla suave"
+    "description": "Descubrí EXQUISITE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 43,
@@ -470,7 +470,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 31000,
-    "description": "Descubrí EMEER, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias refinadas, ámbar dorado, maderas nobles"
+    "description": "Descubrí EMEER, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 44,
@@ -481,7 +481,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ECLAIRE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: vainilla cremosa, caramelo suave, flores dulces"
+    "description": "Descubrí ECLAIRE, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 45,
@@ -492,7 +492,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí ECLAIRE BANOFFE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: banana caramelizada, vainilla cremosa, dulce de leche"
+    "description": "Descubrí ECLAIRE BANOFFE, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 46,
@@ -503,7 +503,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí ECLAIRE PISTACHE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: pistacho cremoso, vainilla dulce, azúcar tostada"
+    "description": "Descubrí ECLAIRE PISTACHE, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 47,
@@ -514,7 +514,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí EMAAN, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: flores blancas, vainilla suave, musk limpio"
+    "description": "Descubrí EMAAN, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 48,
@@ -525,7 +525,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí FAKHAR GOLD, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas dulces, flores suaves, ámbar cremoso"
+    "description": "Descubrí FAKHAR GOLD, una fragancia elegante y envolvente pensada para destacar desde la primera aplicación. Su perfil combina ámbar dorado , vainilla suave y maderas cálidas, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: ámbar dorado, vainilla suave, maderas cálidas"
   },
   {
     "id": 49,
@@ -536,7 +536,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 24000,
-    "description": "Descubrí FAKHAR MAN SILVER, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: manzana fresca, especias suaves, maderas limpias"
+    "description": "Descubrí FAKHAR MAN SILVER, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 50,
@@ -547,7 +547,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí FAKHAR PLATIN, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos luminosos, lavanda, maderas elegantes"
+    "description": "Descubrí FAKHAR PLATIN, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 51,
@@ -558,7 +558,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí FAKHAR WOMAN, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas jugosas, flores blancas, vainilla suave"
+    "description": "Descubrí FAKHAR WOMAN, una fragancia femenina y elegante que deja una estela atractiva y fácil de recordar. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 52,
@@ -569,7 +569,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí GLACIER POUR HOMME, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: menta fresca, lavanda limpia, maderas frías"
+    "description": "Descubrí GLACIER POUR HOMME, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 53,
@@ -580,7 +580,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 19000,
-    "description": "Descubrí GLACIER ULTRA, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos helados, especias suaves, ámbar limpio"
+    "description": "Descubrí GLACIER ULTRA, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 54,
@@ -591,7 +591,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí GLACIER BELLA, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas frescas, flores suaves, musk delicado"
+    "description": "Descubrí GLACIER BELLA, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 55,
@@ -602,7 +602,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí HAYA, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: champagne rosado, frutas rojas, flores suaves"
+    "description": "Descubrí HAYA, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 56,
@@ -613,7 +613,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí HAYAATI GOLD ELIXIR, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: especias dulces, vainilla cálida, ámbar dorado"
+    "description": "Descubrí HAYAATI GOLD ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 57,
@@ -624,7 +624,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí HAYAATI FLORENCE, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas frescas, flores elegantes, musk suave"
+    "description": "Descubrí HAYAATI FLORENCE, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 58,
@@ -635,7 +635,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí HAYAATI MALEKY, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas especiadas, ámbar suave, maderas cálidas"
+    "description": "Descubrí HAYAATI MALEKY, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 59,
@@ -646,7 +646,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí HER CONFESSION, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: flores cremosas, vainilla sensual, musk delicado"
+    "description": "Descubrí HER CONFESSION, una fragancia equilibrada y versátil que deja una estela atractiva y fácil de recordar. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 60,
@@ -657,7 +657,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí HIS CONFESSION, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias limpias, ámbar cálido, maderas secas"
+    "description": "Descubrí HIS CONFESSION, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 61,
@@ -668,7 +668,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí HONOR AND GLORY, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: piña dulce, especias suaves, vainilla cremosa"
+    "description": "Descubrí HONOR AND GLORY, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 62,
@@ -679,7 +679,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ISHQ AL SHUYUKH GOLD, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: caramelo suave, ámbar dorado, maderas cálidas"
+    "description": "Descubrí ISHQ AL SHUYUKH GOLD, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 63,
@@ -690,7 +690,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 30000,
-    "description": "Descubrí ISLAND BLIZZ, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos fríos, acordes marinos, maderas limpias"
+    "description": "Descubrí ISLAND BLIZZ, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 64,
@@ -701,7 +701,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí ISLAND BREEZE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas tropicales, brisa marina, musk suave"
+    "description": "Descubrí ISLAND BREEZE, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 65,
@@ -712,7 +712,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí JEAN LOWE IMMORTAL, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos frescos, jengibre suave, maderas limpias"
+    "description": "Descubrí JEAN LOWE IMMORTAL, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 66,
@@ -723,7 +723,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí KHAMRAH DUKHAN, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias ahumadas, canela dulce, ámbar intenso"
+    "description": "Descubrí KHAMRAH DUKHAN, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 67,
@@ -734,7 +734,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí KHAMRAH QAHWA, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: café tostado, canela, vainilla cálida"
+    "description": "Descubrí KHAMRAH QAHWA, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 68,
@@ -745,7 +745,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí KHAMRAH UNISEX, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: canela dulce, dátiles, vainilla cremosa"
+    "description": "Descubrí KHAMRAH UNISEX, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 69,
@@ -756,7 +756,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí KHANJAR, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: especias orientales, oud elegante, ámbar oscuro"
+    "description": "Descubrí KHANJAR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 70,
@@ -767,7 +767,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí LA VOIE, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: flores blancas, vainilla suave, frutas jugosas"
+    "description": "Descubrí LA VOIE, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 71,
@@ -778,7 +778,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí LATTAFA NEBRAS, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutos rojos, cacao suave, vainilla cremosa"
+    "description": "Descubrí LATTAFA NEBRAS, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 72,
@@ -789,7 +789,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 35000,
-    "description": "Descubrí LIQUID BRUN, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cacao oscuro, ámbar cálido, maderas tostadas"
+    "description": "Descubrí LIQUID BRUN, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 73,
@@ -800,7 +800,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí MAAHIR BLACK, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: humo elegante, cuero suave, maderas oscuras"
+    "description": "Descubrí MAAHIR BLACK, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 74,
@@ -811,7 +811,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí MAAHIR EAU DE PARFUM, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: cítricos suaves, especias cálidas, maderas nobles"
+    "description": "Descubrí MAAHIR EAU DE PARFUM, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 75,
@@ -822,7 +822,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí MAAHIR LEGACY, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: menta fresca, cítricos brillantes, maderas limpias"
+    "description": "Descubrí MAAHIR LEGACY, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 76,
@@ -833,7 +833,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí MAYAR CHERRY INTENSE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cereza madura, flores dulces, vainilla suave"
+    "description": "Descubrí MAYAR CHERRY INTENSE, una fragancia intensa y moderna que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 77,
@@ -844,7 +844,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí MAYAR NATURAL INTENSE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas verdes, flores frescas, musk limpio"
+    "description": "Descubrí MAYAR NATURAL INTENSE, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 78,
@@ -855,7 +855,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí MAYAR PINK, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas rosadas, flores delicadas, vainilla suave"
+    "description": "Descubrí MAYAR PINK, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 79,
@@ -866,7 +866,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ODYSSEY CANDEE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: caramelo suave, frutas dulces, vainilla cremosa"
+    "description": "Descubrí ODYSSEY CANDEE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 80,
@@ -877,7 +877,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ODYSSEY CHOCOLATE DUBAI, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: chocolate cremoso, ámbar dulce, vainilla cálida"
+    "description": "Descubrí ODYSSEY CHOCOLATE DUBAI, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 81,
@@ -888,7 +888,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí ODYSSEY REVOLUTION, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos modernos, especias suaves, maderas intensas"
+    "description": "Descubrí ODYSSEY REVOLUTION, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 82,
@@ -899,7 +899,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 31000,
-    "description": "Descubrí ODISSEY GO MANGO, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: mango jugoso, frutas tropicales, musk suave"
+    "description": "Descubrí ODISSEY GO MANGO, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 83,
@@ -910,7 +910,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí ODYSSEY LIMONI, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: limón brillante, cítricos verdes, maderas limpias"
+    "description": "Descubrí ODYSSEY LIMONI, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 84,
@@ -921,7 +921,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ODYSSEY TYRANT, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: especias intensas, maderas secas, ámbar oscuro"
+    "description": "Descubrí ODYSSEY TYRANT, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 85,
@@ -932,7 +932,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí ODYSSEY AQUA, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos acuáticos, notas marinas, musk limpio"
+    "description": "Descubrí ODYSSEY AQUA, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 86,
@@ -943,7 +943,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 23000,
-    "description": "Descubrí ODYSSEY MANDARINE SKY, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: mandarina vibrante, caramelo suave, ámbar cálido"
+    "description": "Descubrí ODYSSEY MANDARINE SKY, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 87,
@@ -954,7 +954,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 38000,
-    "description": "Descubrí MANDARINE SKY ELIXIR, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: mandarina dulce, vainilla cremosa, ámbar intenso"
+    "description": "Descubrí MANDARINE SKY ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 88,
@@ -965,7 +965,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí PHILOS CENTRO, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos suaves, especias limpias, maderas elegantes"
+    "description": "Descubrí PHILOS CENTRO, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 89,
@@ -976,7 +976,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí PHILOS OPTUS NOIR, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias oscuras, incienso suave, maderas profundas"
+    "description": "Descubrí PHILOS OPTUS NOIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 90,
@@ -987,7 +987,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí PHILOS ROSSO, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas rojas, especias suaves, ámbar cálido"
+    "description": "Descubrí PHILOS ROSSO, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 91,
@@ -998,7 +998,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí PHILOS PURA, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos limpios, frutas luminosas, musk elegante"
+    "description": "Descubrí PHILOS PURA, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 92,
@@ -1009,7 +1009,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí PHILOS SHINE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas brillantes, flores suaves, musk limpio"
+    "description": "Descubrí PHILOS SHINE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 93,
@@ -1020,7 +1020,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 30000,
-    "description": "Descubrí PRIDE PISA, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos sofisticados, flores limpias, maderas suaves"
+    "description": "Descubrí PRIDE PISA, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 94,
@@ -1031,7 +1031,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 12000,
-    "description": "Descubrí QAED AL FURSAN BLANCO, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: piña cremosa, coco suave, vainilla dulce"
+    "description": "Descubrí QAED AL FURSAN BLANCO, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 95,
@@ -1042,7 +1042,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 12000,
-    "description": "Descubrí QAED AL FURSAN MARRÓN, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas especiadas, ámbar, maderas cálidas"
+    "description": "Descubrí QAED AL FURSAN MARRÓN, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 96,
@@ -1053,7 +1053,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí QAED AL FURSAN NEGRO, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: piña intensa, azafrán suave, maderas oscuras"
+    "description": "Descubrí QAED AL FURSAN NEGRO, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 97,
@@ -1064,7 +1064,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí ROSE ORIGAMI, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: rosa delicada, frutas rosadas, musk suave"
+    "description": "Descubrí ROSE ORIGAMI, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 98,
@@ -1075,7 +1075,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí RAYHAAN ELIXIR, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias dulces, ámbar elegante, vainilla cálida"
+    "description": "Descubrí RAYHAAN ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 99,
@@ -1086,7 +1086,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí RASASI HAWAS BLACK, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: cítricos oscuros, especias intensas, ámbar masculino"
+    "description": "Descubrí RASASI HAWAS BLACK, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 100,
@@ -1097,7 +1097,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 31000,
-    "description": "Descubrí RASASI HAWAS TROPICAL, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas tropicales, brisa marina, ámbar limpio"
+    "description": "Descubrí RASASI HAWAS TROPICAL, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 101,
@@ -1108,7 +1108,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí RASASI HAWAS ELIXIR, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas dulces, ámbar intenso, maderas suaves"
+    "description": "Descubrí RASASI HAWAS ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 102,
@@ -1119,7 +1119,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí RASASI HAWAS FOR HIM, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: manzana fresca, notas acuáticas, ámbar gris"
+    "description": "Descubrí RASASI HAWAS FOR HIM, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 103,
@@ -1130,7 +1130,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí RASASI HAWAS FOR HER, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas jugosas, flores luminosas, vainilla suave"
+    "description": "Descubrí RASASI HAWAS FOR HER, una fragancia fresca y vibrante que deja una estela atractiva y fácil de recordar. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 104,
@@ -1141,7 +1141,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí RASASI HAWAS ICE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos helados, notas marinas, maderas limpias"
+    "description": "Descubrí RASASI HAWAS ICE, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios"
   },
   {
     "id": 105,
@@ -1152,7 +1152,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí SABAH AL WARD, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: rosa brillante, frutas dulces, musk delicado"
+    "description": "Descubrí SABAH AL WARD, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 106,
@@ -1163,7 +1163,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí SAKEENA, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas exóticas, flores suaves, vainilla cremosa"
+    "description": "Descubrí SAKEENA, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 107,
@@ -1174,7 +1174,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí SALVO ELIXIR, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias modernas, lavanda suave, vainilla intensa"
+    "description": "Descubrí SALVO ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 108,
@@ -1185,7 +1185,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí SO CANDID FEM, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas dulces, flores suaves, musk limpio"
+    "description": "Descubrí SO CANDID FEM, una fragancia equilibrada y versátil que deja una estela atractiva y fácil de recordar. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 109,
@@ -1196,7 +1196,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí SO CANDID POUR HOMME, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: cítricos limpios, especias suaves, maderas masculinas"
+    "description": "Descubrí SO CANDID POUR HOMME, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 110,
@@ -1207,7 +1207,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí SUBLIME, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas brillantes, flores elegantes, vainilla suave"
+    "description": "Descubrí SUBLIME, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 111,
@@ -1218,7 +1218,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí SPECTRE GHOST, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: incienso suave, vainilla oscura, maderas ahumadas"
+    "description": "Descubrí SPECTRE GHOST, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 112,
@@ -1229,7 +1229,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí SPECTRE BRONZITE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias secas, ámbar cálido, maderas minerales"
+    "description": "Descubrí SPECTRE BRONZITE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 113,
@@ -1240,7 +1240,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí SUPREMACY LEGACY, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: cítricos frescos, especias modernas, maderas elegantes"
+    "description": "Descubrí SUPREMACY LEGACY, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 114,
@@ -1251,7 +1251,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí SEHR, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: canela suave, vainilla cremosa, flores cálidas"
+    "description": "Descubrí SEHR, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 115,
@@ -1262,7 +1262,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí SHAHEEN GOLD, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas dulces, ámbar dorado, maderas suaves"
+    "description": "Descubrí SHAHEEN GOLD, una fragancia elegante y envolvente pensada para destacar desde la primera aplicación. Su perfil combina ámbar dorado , vainilla suave y maderas cálidas, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: ámbar dorado, vainilla suave, maderas cálidas"
   },
   {
     "id": 116,
@@ -1273,7 +1273,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 24000,
-    "description": "Descubrí TERIAQ, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: caramelo especiado, miel suave, ámbar cálido"
+    "description": "Descubrí TERIAQ, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 117,
@@ -1284,7 +1284,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí TRES NUIT, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: limón fresco, lavanda, maderas verdes"
+    "description": "Descubrí TRES NUIT, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado"
   },
   {
     "id": 118,
@@ -1295,7 +1295,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí THE KINGDOM FEM, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas delicadas, flores blancas, vainilla suave"
+    "description": "Descubrí THE KINGDOM FEM, una fragancia intensa y moderna que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 119,
@@ -1306,7 +1306,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí THE KINGDOM MASC, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: cítricos intensos, especias suaves, maderas elegantes"
+    "description": "Descubrí THE KINGDOM MASC, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 120,
@@ -1317,7 +1317,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí VICTORIA, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas femeninas, flores suaves, musk delicado"
+    "description": "Descubrí VICTORIA, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso"
   },
   {
     "id": 121,
@@ -1328,7 +1328,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí VICTORIOSO FEARLESS, una fragancia de carácter intenso y moderno. Su perfil combina frescura, especias y un fondo amaderado que deja una estela elegante, masculina y muy versátil.\n\nNotas: cítricos brillantes, notas marinas, maderas limpias"
+    "description": "Descubrí VICTORIOSO FEARLESS, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 122,
@@ -1339,7 +1339,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí VICTORIOSO HEROIC, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: pomelo fresco, especias suaves, ámbar masculino"
+    "description": "Descubrí VICTORIOSO HEROIC, una fragancia intensa y moderna que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 123,
@@ -1350,7 +1350,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí VICTORIOSO LEGACY, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: cítricos elegantes, lavanda suave, maderas claras"
+    "description": "Descubrí VICTORIOSO LEGACY, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 124,
@@ -1361,7 +1361,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 36000,
-    "description": "Descubrí VULCAN AVENUE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: especias urbanas, cuero suave, maderas intensas"
+    "description": "Descubrí VULCAN AVENUE, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 125,
@@ -1372,7 +1372,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 19000,
-    "description": "Descubrí YARA CANDY, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: caramelo rosa, frutas dulces, vainilla cremosa"
+    "description": "Descubrí YARA CANDY, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 126,
@@ -1383,7 +1383,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí YARA MOI, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: jazmín suave, caramelo delicado, ámbar limpio"
+    "description": "Descubrí YARA MOI, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 127,
@@ -1394,7 +1394,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 19000,
-    "description": "Descubrí YARA PINK, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas tropicales, vainilla cremosa, musk delicado"
+    "description": "Descubrí YARA PINK, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 128,
@@ -1405,7 +1405,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí YARA TOUS, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: mango dulce, coco cremoso, vainilla suave"
+    "description": "Descubrí YARA TOUS, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 129,
@@ -1416,7 +1416,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí YARA ELIXIR, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas rojas, vainilla intensa, ámbar envolvente"
+    "description": "Descubrí YARA ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras"
   },
   {
     "id": 130,
@@ -1427,7 +1427,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 32000,
-    "description": "Descubrí YUM YUM, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas golosas, crema dulce, vainilla suave"
+    "description": "Descubrí YUM YUM, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 131,
@@ -1438,7 +1438,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí ZIMAYA FÁTIMA PINK, una fragancia femenina, envolvente y llena de estilo. Su perfil mezcla dulzura, flores y un fondo suave para lograr una estela elegante, encantadora y fácil de disfrutar todos los días.\n\nNotas: frutas rosadas, flores suaves, vainilla cremosa"
+    "description": "Descubrí ZIMAYA FÁTIMA PINK, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 132,
@@ -1449,7 +1449,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí ZIMAYA TIRAMISU CARAMEL, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: caramelo tostado, café suave, crema dulce"
+    "description": "Descubrí ZIMAYA TIRAMISU CARAMEL, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 133,
@@ -1460,7 +1460,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí ZIMAYA TIRAMISU COCO, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: coco cremoso, café suave, vainilla dulce"
+    "description": "Descubrí ZIMAYA TIRAMISU COCO, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand"
   },
   {
     "id": 134,
@@ -1471,7 +1471,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ZIMAYA VELVENT LOVE PURPLE, una fragancia envolvente y con mucha personalidad. Su perfil equilibra frescura, dulzura y un fondo cálido para dejar una estela moderna, elegante y muy agradable.\n\nNotas: frutas moradas, flores aterciopeladas, vainilla suave"
+    "description": "Descubrí ZIMAYA VELVENT LOVE PURPLE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado"
   },
   {
     "id": 201,
@@ -1482,7 +1482,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 11667,
-    "description": "Transformá tu rutina capilar con una crema de tratamiento intensiva que ayuda a nutrir, suavizar y devolver brillo al cabello. Ideal para cabellos secos, opacos o maltratados que buscan una terminación sedosa y más manejable.\n\nBeneficios: nutrición intensiva, brillo, suavidad"
+    "description": "Tratamiento capilar intensivo pensado para nutrir, suavizar y devolver brillo al cabello. Ayuda a mejorar la textura, reducir el frizz y dejar una sensación sedosa desde la primera aplicación.\n\nBeneficios: nutrición profunda, brillo, suavidad\nUso: 1 a 2 veces por semana"
   },
   {
     "id": 202,
@@ -1493,7 +1493,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 11667,
-    "description": "Matizá y cuidá tu cabello con una crema violeta pensada para ayudar a neutralizar reflejos amarillos mientras aporta nutrición, suavidad y brillo. Ideal para rubios, decolorados o canosos.\n\nBeneficios: matizador violeta, nutrición, brillo"
+    "description": "Tratamiento capilar intensivo pensado para nutrir, suavizar y devolver brillo al cabello. Ayuda a mejorar la textura, reducir el frizz y dejar una sensación sedosa desde la primera aplicación.\n\nBeneficios: nutrición profunda, brillo, suavidad\nUso: 1 a 2 veces por semana"
   },
   {
     "id": 203,
@@ -1504,7 +1504,7 @@
     "stock": 15,
     "installments": 3,
     "installmentPrice": 8333,
-    "description": "Dale a tu cabello un acabado suave, brillante y controlado con este óleo reparador. Ayuda a reducir el frizz, sellar puntas y dejar el pelo más sedoso sin sensación pesada.\n\nBeneficios: brillo, reparación, control del frizz"
+    "description": "Potenciá el brillo y controlá el frizz con este óleo capilar de textura liviana. Ayuda a sellar puntas, suavizar la fibra y dejar el cabello más sedoso, manejable y con acabado brillante.\n\nBeneficios: brillo, suavidad, control del frizz\nUso: medios y puntas"
   },
   {
     "id": 204,
@@ -1515,7 +1515,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 18333,
-    "description": "Combiná nutrición y brillo en una rutina completa para el cabello. Este set ayuda a suavizar, controlar el frizz y dejar el pelo con una terminación más sedosa, manejable y saludable.\n\nBeneficios: nutrición, brillo, suavidad"
+    "description": "Potenciá el brillo y controlá el frizz con este óleo capilar de textura liviana. Ayuda a sellar puntas, suavizar la fibra y dejar el cabello más sedoso, manejable y con acabado brillante.\n\nBeneficios: brillo, suavidad, control del frizz\nUso: medios y puntas"
   },
   {
     "id": 205,
@@ -1526,7 +1526,7 @@
     "stock": 15,
     "installments": 3,
     "installmentPrice": 8333,
-    "description": "Limpiá tu cabello mientras ayudás a mantenerlo suave, brillante y con mejor aspecto. Su fórmula acompaña la rutina capilar diaria dejando una sensación fresca y un pelo más manejable.\n\nBeneficios: limpieza suave, brillo, frescura"
+    "description": "Limpiá tu cabello sin resecar con una fórmula pensada para dejarlo suave, suelto y con brillo natural. Ideal para complementar tu rutina de nutrición y cuidado diario.\n\nBeneficios: limpieza suave, brillo, suavidad\nUso: apto para rutina diaria"
   },
   {
     "id": 206,
@@ -1537,7 +1537,7 @@
     "stock": 15,
     "installments": 3,
     "installmentPrice": 8333,
-    "description": "Desenredá y suavizá tu cabello con una crema de enjuague que ayuda a nutrir, reducir el frizz y mejorar la textura. Ideal para completar tu rutina y lograr un acabado sedoso.\n\nBeneficios: suavidad, nutrición, control del frizz"
+    "description": "Acondicioná y desenredá el cabello con una fórmula que ayuda a suavizar la fibra capilar y mejorar la manejabilidad. Deja el pelo más dócil, sedoso y fácil de peinar.\n\nBeneficios: desenredo, suavidad, nutrición\nUso: después del shampoo"
   },
   {
     "id": 301,
@@ -1548,7 +1548,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una bruma cálida y seductora. Ámbar Romance envuelve con un aroma dulce y elegante que deja una sensación femenina, intensa y muy atractiva. Ideal para usar todos los días o sumar un toque especial por la noche.\n\nNotas: ámbar dulce, cereza negra, vainilla suave"
+    "description": "Perfumá tu piel con una fragancia femenino, fresco y encantador. Ámbar Romance envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: frutas suaves, flores delicadas\nContenido: 250 ml"
   },
   {
     "id": 302,
@@ -1559,7 +1559,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Refrescá tu piel con una bruma liviana y luminosa. Aqua Kiss combina un perfil limpio, acuático y delicadamente floral para un acabado fresco, femenino y súper versátil. Perfecta para el día a día y épocas de calor.\n\nNotas: notas acuáticas, margarita fresca, musk suave"
+    "description": "Perfumá tu piel con una fragancia refrescante, limpio y liviano. Aqua Kiss envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: notas acuáticas, margarita fresca\nContenido: 250 ml"
   },
   {
     "id": 303,
@@ -1570,7 +1570,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia frutal y encantadora. Love Spell es un clásico irresistible que mezcla dulzura, frescura y un fondo suave para dejar una estela femenina y juvenil.\n\nNotas: durazno jugoso, flor de cerezo, musk delicado"
+    "description": "Perfumá tu piel con una fragancia frutal, alegre y muy femenino. Love Spell envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: durazno jugoso, flor de cerezo\nContenido: 250 ml"
   },
   {
     "id": 304,
@@ -1581,7 +1581,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una versión más cremosa y envolvente del clásico Love Spell. Su aroma combina fruta y flores con un fondo suave tipo cashmere para una sensación femenina, cálida y elegante.\n\nNotas: durazno dulce, flores suaves, cashmere aterciopelado"
+    "description": "Perfumá tu piel con una fragancia aterciopelado, cálido y elegante. Love Spell Cashmere envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: durazno jugoso, cashmere cremoso\nContenido: 250 ml"
   },
   {
     "id": 305,
@@ -1592,7 +1592,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Dejá tu piel delicadamente perfumada con un aroma cálido y envolvente. Midnight Bloom mezcla flores cremosas y acordes suaves para un resultado sensual, femenino y sofisticado.\n\nNotas: flores nocturnas, crema suave, musk cálido"
+    "description": "Perfumá tu piel con una fragancia envolvente, sensual y nocturno. Midnight Bloom envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: flores cremosas, maderas suaves\nContenido: 250 ml"
   },
   {
     "id": 306,
@@ -1603,7 +1603,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia dulce y aterciopelada. Pure Seduction Cashmere combina frutas intensas y flores suaves con un fondo cálido que aporta una sensación femenina, moderna y envolvente.\n\nNotas: ciruela roja, flores suaves, cashmere cremoso"
+    "description": "Perfumá tu piel con una fragancia aterciopelado, cálido y elegante. Pure Seduction Cashmere envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: ciruela jugosa, cashmere cremoso\nContenido: 250 ml"
   },
   {
     "id": 307,
@@ -1614,7 +1614,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia delicada y femenina. Romantic ofrece un aroma floral suave y limpio, ideal para quienes buscan una sensación fresca, elegante y encantadora.\n\nNotas: pétalos rosados, flores suaves, musk limpio"
+    "description": "Perfumá tu piel con una fragancia romántico, limpio y femenino. Romantic envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: pétalos rosados, almizcle suave\nContenido: 250 ml"
   },
   {
     "id": 308,
@@ -1625,7 +1625,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Dale a tu piel un toque dulce y vibrante con Rush. Su perfil frutal y cremoso deja una sensación juvenil, divertida y muy fácil de usar todos los días.\n\nNotas: frutas cremosas, vainilla suave, musk dulce"
+    "description": "Perfumá tu piel con una fragancia suave, luminoso y fácil de usar. Rush envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: flores suaves, musk limpio\nContenido: 250 ml"
   },
   {
     "id": 309,
@@ -1636,7 +1636,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia floral suave y aterciopelada. Velvet Petals combina flores delicadas y un fondo cálido para un acabado femenino, elegante y muy agradable.\n\nNotas: pétalos luminosos, almendra glaseada, crema suave"
+    "description": "Perfumá tu piel con una fragancia floral, delicado y femenino. Velvet Petals envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: pétalos aterciopelados, almendra glaseada\nContenido: 250 ml"
   },
   {
     "id": 310,
@@ -1647,7 +1647,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia tropical y cremosa. Coconut Passion mezcla coco dulce y vainilla suave para dejar una sensación cálida, femenina y adictiva.\n\nNotas: coco cremoso, vainilla dulce, musk suave"
+    "description": "Perfumá tu piel con una fragancia tropical, suave y adictivo. Coconut Passion envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: coco cremoso, vainilla cálida\nContenido: 250 ml"
   },
   {
     "id": 311,
@@ -1658,7 +1658,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia dulce y envolvente. Bare Vanilla combina vainilla cremosa y un fondo cálido que deja una sensación suave, femenina y muy adictiva.\n\nNotas: vainilla batida, cashmere suave, ámbar delicado"
+    "description": "Perfumá tu piel con una fragancia dulce, cálido y envolvente. Bare Vanilla envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: vainilla cremosa, cashmere suave\nContenido: 250 ml"
   },
   {
     "id": 312,
@@ -1669,7 +1669,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia dulce y envolvente. Pure Seduction mezcla ciruela jugosa y flores suaves para un acabado femenino, fresco y encantador. Ideal para todos los días.\n\nNotas: ciruela jugosa, flores suaves, musk delicado"
+    "description": "Perfumá tu piel con una fragancia frutal, dulce y encantador. Pure Seduction envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: ciruela jugosa, flores suaves\nContenido: 250 ml"
   },
   {
     "id": 401,
@@ -1680,7 +1680,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá y perfumá tu piel con una fragancia tropical y cremosa. Coconut Passion Shimmer deja destellos sutiles sobre la piel mientras combina coco y vainilla para un acabado femenino, luminoso y adictivo.\n\nNotas: coco cremoso, vainilla dulce, brillo radiante"
+    "description": "Iluminá tu piel con una bruma perfumada tropical, suave y adictivo. Coconut Passion deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: coco cremoso, vainilla cálida\nContenido: 250 ml"
   },
   {
     "id": 402,
@@ -1691,7 +1691,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá y perfumá tu piel con una fragancia dulce y envolvente. Bare Vanilla Shimmer aporta un glow delicado mientras mezcla vainilla cremosa y notas cálidas para un acabado suave, femenino y brillante.\n\nNotas: vainilla batida, cashmere suave, brillo radiante"
+    "description": "Iluminá tu piel con una bruma perfumada dulce, cálido y envolvente. Bare Vanilla deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: vainilla cremosa, cashmere suave\nContenido: 250 ml"
   },
   {
     "id": 403,
@@ -1702,7 +1702,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá y refrescá tu piel con una bruma fresca y luminosa. Aqua Kiss Shimmer combina un perfil acuático y floral con destellos sutiles para un acabado limpio, femenino y radiante.\n\nNotas: notas acuáticas, margarita fresca, brillo radiante"
+    "description": "Iluminá tu piel con una bruma perfumada refrescante, limpio y liviano. Aqua Kiss deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: notas acuáticas, margarita fresca\nContenido: 250 ml"
   },
   {
     "id": 404,
@@ -1713,7 +1713,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá y perfumá tu piel con una fragancia frutal y encantadora. Love Spell Shimmer deja destellos suaves mientras combina durazno y flor de cerezo para un acabado femenino, juvenil y brillante.\n\nNotas: durazno jugoso, flor de cerezo, brillo radiante"
+    "description": "Iluminá tu piel con una bruma perfumada frutal, alegre y muy femenino. Love Spell deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: durazno jugoso, flor de cerezo\nContenido: 250 ml"
   },
   {
     "id": 405,
@@ -1724,6 +1724,369 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá y perfumá tu piel con una fragancia dulce y envolvente. Pure Seduction Shimmer deja la piel con un glow sutil mientras mezcla ciruela jugosa y flores suaves en un acabado femenino y radiante.\n\nNotas: ciruela jugosa, flores suaves, brillo radiante"
+    "description": "Iluminá tu piel con una bruma perfumada frutal, dulce y encantador. Pure Seduction deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: ciruela jugosa, flores suaves\nContenido: 250 ml"
+  },
+  {
+    "id": 406,
+    "name": "Temptation (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia dulce, vibrante y juvenil. Temptation envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: manzana jugosa, flor fresca\nContenido: 250 ml"
+  },
+  {
+    "id": 407,
+    "name": "Velvet Petals Daydream (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia ligero, suave y soñador. Velvet Petals Daydream envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: pétalos aterciopelados, flores aireadas\nContenido: 250 ml"
+  },
+  {
+    "id": 408,
+    "name": "Pure Seduction Daydream (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia ligero, suave y soñador. Pure Seduction Daydream envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: ciruela jugosa, flores aireadas\nContenido: 250 ml"
+  },
+  {
+    "id": 409,
+    "name": "Love Spell Daydream (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia ligero, suave y soñador. Love Spell Daydream envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: durazno jugoso, flores aireadas\nContenido: 250 ml"
+  },
+  {
+    "id": 410,
+    "name": "Bare Vanilla Cashmere (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia aterciopelado, cálido y elegante. Bare Vanilla Cashmere envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: vainilla cremosa, cashmere cremoso\nContenido: 250 ml"
+  },
+  {
+    "id": 411,
+    "name": "Bare Vanilla Sol (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia radiante, cálido y veraniego. Bare Vanilla Sol envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: vainilla cremosa, acordes solares\nContenido: 250 ml"
+  },
+  {
+    "id": 412,
+    "name": "Electric Mango (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia jugoso, veraniego y divertido. Electric Mango envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: mango tropical, frutas brillantes\nContenido: 250 ml"
+  },
+  {
+    "id": 413,
+    "name": "Love Spell Sol (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia radiante, cálido y veraniego. Love Spell Sol envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: durazno jugoso, acordes solares\nContenido: 250 ml"
+  },
+  {
+    "id": 414,
+    "name": "Neon Tropic (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia chispeante, fresco y energético. Neon Tropic envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: frutas tropicales, cítricos vibrantes\nContenido: 250 ml"
+  },
+  {
+    "id": 415,
+    "name": "Pure Seduction Sol (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia radiante, cálido y veraniego. Pure Seduction Sol envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: ciruela jugosa, acordes solares\nContenido: 250 ml"
+  },
+  {
+    "id": 416,
+    "name": "Velvet Petals Sol (Mist)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Perfumá tu piel con una fragancia radiante, cálido y veraniego. Velvet Petals Sol envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: pétalos aterciopelados, acordes solares\nContenido: 250 ml"
+  },
+  {
+    "id": 417,
+    "name": "Velvet Petals (Mist Shimmer)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Iluminá tu piel con una bruma perfumada floral, delicado y femenino. Velvet Petals deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: pétalos aterciopelados, almendra glaseada\nContenido: 250 ml"
+  },
+  {
+    "id": 418,
+    "name": "Temptation (Mist Shimmer)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Iluminá tu piel con una bruma perfumada dulce, vibrante y juvenil. Temptation deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: manzana jugosa, flor fresca\nContenido: 250 ml"
+  },
+  {
+    "id": 419,
+    "name": "Midnight Bloom (Mist Shimmer)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Iluminá tu piel con una bruma perfumada envolvente, sensual y nocturno. Midnight Bloom deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: flores cremosas, maderas suaves\nContenido: 250 ml"
+  },
+  {
+    "id": 420,
+    "name": "Coconut Passion (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia tropical, suave y adictivo. Coconut Passion deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: coco cremoso, vainilla cálida\nContenido: 236 ml"
+  },
+  {
+    "id": 421,
+    "name": "Bare Vanilla (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia dulce, cálido y envolvente. Bare Vanilla deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: vainilla cremosa, cashmere suave\nContenido: 236 ml"
+  },
+  {
+    "id": 422,
+    "name": "Pure Seduction (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia frutal, dulce y encantador. Pure Seduction deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: ciruela jugosa, flores suaves\nContenido: 236 ml"
+  },
+  {
+    "id": 423,
+    "name": "Velvet Petals (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia floral, delicado y femenino. Velvet Petals deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: pétalos aterciopelados, almendra glaseada\nContenido: 236 ml"
+  },
+  {
+    "id": 424,
+    "name": "Love Spell (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia frutal, alegre y muy femenino. Love Spell deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: durazno jugoso, flor de cerezo\nContenido: 236 ml"
+  },
+  {
+    "id": 425,
+    "name": "Amber Romance (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia seductor, cremoso y duradero. Amber Romance deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: ámbar dulce, vainilla cálida\nContenido: 236 ml"
+  },
+  {
+    "id": 426,
+    "name": "Aqua Kiss (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia refrescante, limpio y liviano. Aqua Kiss deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: notas acuáticas, margarita fresca\nContenido: 236 ml"
+  },
+  {
+    "id": 427,
+    "name": "Midnight Bloom (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia envolvente, sensual y nocturno. Midnight Bloom deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: flores cremosas, maderas suaves\nContenido: 236 ml"
+  },
+  {
+    "id": 428,
+    "name": "Rush (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia suave, luminoso y fácil de usar. Rush deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: flores suaves, musk limpio\nContenido: 236 ml"
+  },
+  {
+    "id": 429,
+    "name": "Temptation (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia dulce, vibrante y juvenil. Temptation deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: manzana jugosa, flor fresca\nContenido: 236 ml"
+  },
+  {
+    "id": 430,
+    "name": "Velvet Petals Daydream (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia ligero, suave y soñador. Velvet Petals Daydream deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: pétalos aterciopelados, flores aireadas\nContenido: 236 ml"
+  },
+  {
+    "id": 431,
+    "name": "Pure Seduction Daydream (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia ligero, suave y soñador. Pure Seduction Daydream deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: ciruela jugosa, flores aireadas\nContenido: 236 ml"
+  },
+  {
+    "id": 432,
+    "name": "Love Spell Daydream (Loción)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Hidratá tu piel con una fragancia ligero, suave y soñador. Love Spell Daydream deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: durazno jugoso, flores aireadas\nContenido: 236 ml"
+  },
+  {
+    "id": 433,
+    "name": "Love Spell (Loción Shimmer)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Nutrí e iluminá tu piel con una loción frutal, alegre y muy femenino. Love Spell aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: durazno jugoso, flor de cerezo\nContenido: 236 ml"
+  },
+  {
+    "id": 434,
+    "name": "Pure Seduction (Loción Shimmer)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Nutrí e iluminá tu piel con una loción frutal, dulce y encantador. Pure Seduction aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: ciruela jugosa, flores suaves\nContenido: 236 ml"
+  },
+  {
+    "id": 435,
+    "name": "Velvet Petals (Loción Shimmer)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Nutrí e iluminá tu piel con una loción floral, delicado y femenino. Velvet Petals aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: pétalos aterciopelados, almendra glaseada\nContenido: 236 ml"
+  },
+  {
+    "id": 436,
+    "name": "Bare Vanilla (Loción Shimmer)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Nutrí e iluminá tu piel con una loción dulce, cálido y envolvente. Bare Vanilla aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: vainilla cremosa, cashmere suave\nContenido: 236 ml"
+  },
+  {
+    "id": 437,
+    "name": "Coconut Passion (Loción Shimmer)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Nutrí e iluminá tu piel con una loción tropical, suave y adictivo. Coconut Passion aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: coco cremoso, vainilla cálida\nContenido: 236 ml"
+  },
+  {
+    "id": 438,
+    "name": "Midnight Bloom (Loción Shimmer)",
+    "price": 0,
+    "transferPrice": 0,
+    "image": "",
+    "stock": 0,
+    "installments": 3,
+    "installmentPrice": 0,
+    "description": "Nutrí e iluminá tu piel con una loción envolvente, sensual y nocturno. Midnight Bloom aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: flores cremosas, maderas suaves\nContenido: 236 ml"
   }
 ]
