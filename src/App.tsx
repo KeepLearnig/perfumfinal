@@ -144,6 +144,16 @@ function inferBrand(product: Product): string {
   return 'Otras marcas';
 }
 
+
+function uniqueById(products: Product[]) {
+  const seen = new Set<number>();
+  return products.filter((product) => {
+    if (seen.has(product.id)) return false;
+    seen.add(product.id);
+    return true;
+  });
+}
+
 function FilterSection({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="border-b border-gray-200 pb-5 last:border-b-0 last:pb-0">
@@ -240,6 +250,59 @@ function StorePage({ cart }: { cart: ReturnType<typeof useCart> }) {
     });
   }, [productMeta, searchQuery, selectedType, selectedGender, selectedBrand, stockFilter, sortBy]);
 
+  const hasActiveFilters = Boolean(searchQuery.trim()) || selectedType !== 'all' || selectedGender !== 'all' || selectedBrand !== 'all' || stockFilter !== 'all' || sortBy !== 'name';
+
+  const showcaseSections = useMemo(() => {
+    if (hasActiveFilters) return [] as Array<{ key: string; title: string; subtitle: string; products: Product[] }>;
+
+    const take = (items: Product[], limit = 5) => uniqueById(items).slice(0, limit);
+
+    return [
+      {
+        key: 'perfumes',
+        title: 'Perfumes',
+        subtitle: 'Solo 5 productos destacados de esta familia',
+        products: take(productMeta.filter(({ type }) => type === 'perfume').map(({ product }) => product)),
+      },
+      {
+        key: 'body-mist',
+        title: 'Body Mist',
+        subtitle: 'Mostramos solo 5 para que la home se vea más limpia',
+        products: take(productMeta.filter(({ type }) => type === 'body-mist').map(({ product }) => product)),
+      },
+      {
+        key: 'lociones',
+        title: 'Lociones',
+        subtitle: 'Una selección corta de esta categoría',
+        products: take(productMeta.filter(({ type }) => type === 'locion').map(({ product }) => product)),
+      },
+      {
+        key: 'capilar',
+        title: 'Cuidado capilar',
+        subtitle: '5 productos para mantener esta sección compacta',
+        products: take(productMeta.filter(({ type }) => type === 'capilar').map(({ product }) => product)),
+      },
+      {
+        key: 'lattafa',
+        title: 'Lattafa',
+        subtitle: '5 productos destacados por marca',
+        products: take(productMeta.filter(({ brand }) => brand === 'Lattafa').map(({ product }) => product)),
+      },
+      {
+        key: 'armaf',
+        title: 'Armaf',
+        subtitle: '5 productos destacados por marca',
+        products: take(productMeta.filter(({ brand }) => brand === 'Armaf').map(({ product }) => product)),
+      },
+      {
+        key: 'victoria-secret',
+        title: "Victoria's Secret",
+        subtitle: '5 productos destacados por marca',
+        products: take(productMeta.filter(({ brand }) => brand === "Victoria's Secret").map(({ product }) => product)),
+      },
+    ].filter((section) => section.products.length > 0);
+  }, [productMeta, hasActiveFilters]);
+
   const resetFilters = () => {
     setSearchQuery('');
     setSortBy('name');
@@ -299,7 +362,7 @@ function StorePage({ cart }: { cart: ReturnType<typeof useCart> }) {
         <div className="max-w-7xl mx-auto">
           <div className="mb-6">
             <h2 className="text-2xl md:text-3xl font-bold text-black">Catálogo</h2>
-            <p className="text-gray-600 mt-1">Explorá el catálogo con menú lateral, filtros por marca y búsqueda rápida.</p>
+            <p className="text-gray-600 mt-1">Explorá el catálogo con menú lateral. En la home mostramos solo 5 productos por familia o marca para que se vea más limpia.</p>
           </div>
 
           <div className="lg:hidden mb-5 rounded-2xl border bg-white p-4 shadow-sm">
@@ -355,13 +418,28 @@ function StorePage({ cart }: { cart: ReturnType<typeof useCart> }) {
                 </div>
               </div>
 
-              <ProductGrid
-                products={filteredProducts}
-                onAddToCart={handleAddToCart}
-                title="Catálogo general"
-                subtitle="Perfumes, body mist, lociones y cuidado capilar en una sola vista"
-                compactHeader
-              />
+              {hasActiveFilters ? (
+                <ProductGrid
+                  products={filteredProducts}
+                  onAddToCart={handleAddToCart}
+                  title="Catálogo filtrado"
+                  subtitle="Cuando usás filtros o búsqueda, acá sí ves todos los resultados"
+                  compactHeader
+                />
+              ) : (
+                <div className="space-y-10">
+                  {showcaseSections.map((section) => (
+                    <ProductGrid
+                      key={section.key}
+                      products={section.products}
+                      onAddToCart={handleAddToCart}
+                      title={section.title}
+                      subtitle={section.subtitle}
+                      compactHeader
+                    />
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         </div>
