@@ -213,11 +213,6 @@ function sanitizeProduct(raw: unknown, fallbackId: number): Product {
     installments,
     installmentPrice: asSafeNumber(source.installmentPrice, Math.round(price / installments), 0),
     description: typeof source.description === 'string' ? source.description : '',
-    category: typeof source.category === 'string' ? source.category : undefined,
-    brandCategory: typeof source.brandCategory === 'string' ? source.brandCategory : undefined,
-    genderCategory: source.genderCategory === 'Masculino' || source.genderCategory === 'Femenino' || source.genderCategory === 'Unisex' ? source.genderCategory : undefined,
-    relatedIds: Array.isArray(source.relatedIds) ? source.relatedIds.map((item) => Number(item)).filter((item) => Number.isFinite(item) && item > 0) : undefined,
-    badgeText: typeof source.badgeText === 'string' ? source.badgeText : undefined,
   };
 }
 

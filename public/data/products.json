@@ -8,15 +8,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 24000,
-    "description": "Descubrí 9AM, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 2,
@@ -27,15 +19,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 24000,
-    "description": "Descubrí 9AM DIVE, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 3,
@@ -46,15 +30,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí 9PM, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 4,
@@ -65,15 +41,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 30000,
-    "description": "Descubrí 9PM ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 5,
@@ -84,15 +52,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 42000,
-    "description": "Descubrí 9PM NIGHT OUT, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 6,
@@ -103,15 +63,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí 9PM REBEL, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 7,
@@ -122,15 +74,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí 9PM PURPLE, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 8,
@@ -141,15 +85,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí 9AM POUR FEMME, una fragancia femenina y elegante que deja una estela atractiva y fácil de recordar. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 9,
@@ -160,15 +96,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 29000,
-    "description": "Descubrí AFNAN TUTRATHI ELECTRIC, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 10,
@@ -179,15 +107,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ALAHAMBRA ROSE SEDUCTION, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 11,
@@ -198,15 +118,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí ALHAMBRA VICTORIOSO, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 12,
@@ -217,15 +129,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 39000,
-    "description": "Descubrí AL HARAMAIN GOLD, una fragancia elegante y envolvente pensada para destacar desde la primera aplicación. Su perfil combina ámbar dorado , vainilla suave y maderas cálidas, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: ámbar dorado, vainilla suave, maderas cálidas",
-    "category": "Perfume",
-    "brandCategory": "Al Haramain",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Al Haramain",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 13,
@@ -236,15 +140,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 35000,
-    "description": "Descubrí AL HARAMAIN DUBAI NIGHT, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Al Haramain",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Al Haramain",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 14,
@@ -255,15 +151,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 38000,
-    "description": "Descubrí AL HARAMAIN AQUA DUBAI, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Al Haramain",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Al Haramain",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 15,
@@ -274,15 +162,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí AL NOBLE SAFEER, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 16,
@@ -293,15 +173,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí AL NOBLE WAZZER, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 17,
@@ -312,15 +184,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí AL NOBLE AMEER, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 18,
@@ -331,15 +195,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 23000,
-    "description": "Descubrí AL OUD NOBLE BLUSH, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 19,
@@ -350,15 +206,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 13000,
-    "description": "Descubrí AL WATANIAH ROSE MISTERY, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Body Mist",
-    "brandCategory": "Al Wataniah",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Al Wataniah",
-      "Body Mist",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 20,
@@ -369,15 +217,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 12000,
-    "description": "Descubrí AMERAT PRIV RED, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 21,
@@ -388,15 +228,7 @@
     "stock": 9,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí AMERAT PRIV ROSE, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 22,
@@ -407,15 +239,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí AMETHYST, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 23,
@@ -426,15 +250,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí ASAD, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 24,
@@ -445,15 +261,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí ASAD ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 25,
@@ -464,15 +272,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí ASAD BOURBON, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 26,
@@ -483,15 +283,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ASAD ZANZÍBAR LIMITED, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 27,
@@ -502,15 +294,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí BAD FEMME, una fragancia femenina y elegante que deja una estela atractiva y fácil de recordar. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 28,
@@ -521,15 +305,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí BAD HOMME, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 29,
@@ -540,15 +316,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí BADEE AL OUD FOR GLORY, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 30,
@@ -559,15 +327,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 44000,
-    "description": "Descubrí BHARARA KING, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Bharara",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Bharara",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 31,
@@ -578,15 +338,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí CONFIDENTIAL GOLD, una fragancia elegante y envolvente pensada para destacar desde la primera aplicación. Su perfil combina ámbar dorado , vainilla suave y maderas cálidas, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: ámbar dorado, vainilla suave, maderas cálidas",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 32,
@@ -597,15 +349,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí CONFIDENTIAL PLATINUM, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 33,
@@ -616,15 +360,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí CHANTS TENDERINA, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 34,
@@ -635,15 +371,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí CLUB DE NUIT MALEKA, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 35,
@@ -654,15 +382,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 37000,
-    "description": "Descubrí CLUB DE NUIT PRECIEUX, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 36,
@@ -673,15 +393,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí CLUB DE NUIT UNTOLD, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 37,
@@ -692,15 +404,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí CLUB DE NUIT URBAN ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 38,
@@ -711,15 +415,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí CLUB DE NUIT WOMAN, una fragancia femenina y elegante que deja una estela atractiva y fácil de recordar. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 39,
@@ -730,15 +426,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí CLUB DE NUIT SILLAGE, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 40,
@@ -749,15 +437,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí CLUB DE NUIT INTENSE, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 41,
@@ -768,15 +448,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí COCOA MORADO, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Fragrance World",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Fragrance World",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 42,
@@ -787,15 +459,7 @@
     "stock": 9,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí EXQUISITE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 43,
@@ -806,15 +470,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 31000,
-    "description": "Descubrí EMEER, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 44,
@@ -825,15 +481,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ECLAIRE, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 45,
@@ -844,15 +492,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí ECLAIRE BANOFFE, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 46,
@@ -863,15 +503,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí ECLAIRE PISTACHE, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 47,
@@ -882,15 +514,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí EMAAN, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 48,
@@ -901,15 +525,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí FAKHAR GOLD, una fragancia elegante y envolvente pensada para destacar desde la primera aplicación. Su perfil combina ámbar dorado , vainilla suave y maderas cálidas, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: ámbar dorado, vainilla suave, maderas cálidas",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 49,
@@ -920,15 +536,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 24000,
-    "description": "Descubrí FAKHAR MAN SILVER, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 50,
@@ -939,15 +547,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí FAKHAR PLATIN, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 51,
@@ -958,15 +558,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí FAKHAR WOMAN, una fragancia femenina y elegante que deja una estela atractiva y fácil de recordar. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 52,
@@ -977,15 +569,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí GLACIER POUR HOMME, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 53,
@@ -996,15 +580,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 19000,
-    "description": "Descubrí GLACIER ULTRA, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 54,
@@ -1015,15 +591,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí GLACIER BELLA, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 55,
@@ -1034,15 +602,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí HAYA, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 56,
@@ -1053,15 +613,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí HAYAATI GOLD ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 57,
@@ -1072,15 +624,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí HAYAATI FLORENCE, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 58,
@@ -1091,15 +635,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí HAYAATI MALEKY, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 59,
@@ -1110,15 +646,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí HER CONFESSION, una fragancia equilibrada y versátil que deja una estela atractiva y fácil de recordar. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 60,
@@ -1129,15 +657,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí HIS CONFESSION, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 61,
@@ -1148,15 +668,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí HONOR AND GLORY, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 62,
@@ -1167,15 +679,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ISHQ AL SHUYUKH GOLD, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 63,
@@ -1186,15 +690,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 30000,
-    "description": "Descubrí ISLAND BLIZZ, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "French Avenue",
-    "genderCategory": "Unisex",
-    "tags": [
-      "French Avenue",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 64,
@@ -1205,15 +701,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí ISLAND BREEZE, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "French Avenue",
-    "genderCategory": "Unisex",
-    "tags": [
-      "French Avenue",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 65,
@@ -1224,15 +712,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí JEAN LOWE IMMORTAL, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 66,
@@ -1243,15 +723,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí KHAMRAH DUKHAN, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 67,
@@ -1262,15 +734,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí KHAMRAH QAHWA, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 68,
@@ -1281,15 +745,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí KHAMRAH UNISEX, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 69,
@@ -1300,15 +756,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí KHANJAR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "French Avenue",
-    "genderCategory": "Unisex",
-    "tags": [
-      "French Avenue",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 70,
@@ -1319,15 +767,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí LA VOIE, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 71,
@@ -1338,15 +778,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí LATTAFA NEBRAS, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 72,
@@ -1357,15 +789,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 35000,
-    "description": "Descubrí LIQUID BRUN, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "French Avenue",
-    "genderCategory": "Masculino",
-    "tags": [
-      "French Avenue",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 73,
@@ -1376,15 +800,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí MAAHIR BLACK, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 74,
@@ -1395,15 +811,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí MAAHIR EAU DE PARFUM, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 75,
@@ -1414,15 +822,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí MAAHIR LEGACY, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 76,
@@ -1433,15 +833,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí MAYAR CHERRY INTENSE, una fragancia intensa y moderna que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 77,
@@ -1452,15 +844,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí MAYAR NATURAL INTENSE, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 78,
@@ -1471,15 +855,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí MAYAR PINK, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 79,
@@ -1490,15 +866,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ODYSSEY CANDEE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 80,
@@ -1509,15 +877,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ODYSSEY CHOCOLATE DUBAI, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 81,
@@ -1528,15 +888,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí ODYSSEY REVOLUTION, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 82,
@@ -1547,15 +899,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 31000,
-    "description": "Descubrí ODISSEY GO MANGO, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 83,
@@ -1566,15 +910,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí ODYSSEY LIMONI, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 84,
@@ -1585,15 +921,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ODYSSEY TYRANT, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 85,
@@ -1604,15 +932,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí ODYSSEY AQUA, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 86,
@@ -1623,15 +943,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 23000,
-    "description": "Descubrí ODYSSEY MANDARINE SKY, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 87,
@@ -1642,15 +954,7 @@
     "stock": 2,
     "installments": 3,
     "installmentPrice": 38000,
-    "description": "Descubrí MANDARINE SKY ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 88,
@@ -1661,15 +965,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí PHILOS CENTRO, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 89,
@@ -1680,15 +976,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí PHILOS OPTUS NOIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 90,
@@ -1699,15 +987,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí PHILOS ROSSO, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 91,
@@ -1718,15 +998,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí PHILOS PURA, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 92,
@@ -1737,15 +1009,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí PHILOS SHINE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 93,
@@ -1756,15 +1020,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 30000,
-    "description": "Descubrí PRIDE PISA, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "French Avenue",
-    "genderCategory": "Unisex",
-    "tags": [
-      "French Avenue",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 94,
@@ -1775,15 +1031,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 12000,
-    "description": "Descubrí QAED AL FURSAN BLANCO, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 95,
@@ -1794,15 +1042,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 12000,
-    "description": "Descubrí QAED AL FURSAN MARRÓN, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 96,
@@ -1813,15 +1053,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Descubrí QAED AL FURSAN NEGRO, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 97,
@@ -1832,15 +1064,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí ROSE ORIGAMI, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Fragrance World",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Fragrance World",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 98,
@@ -1851,15 +1075,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 25000,
-    "description": "Descubrí RAYHAAN ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Rayhaan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Rayhaan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 99,
@@ -1870,15 +1086,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí RASASI HAWAS BLACK, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Rasasi",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Rasasi",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 100,
@@ -1889,15 +1097,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 31000,
-    "description": "Descubrí RASASI HAWAS TROPICAL, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Rasasi",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Rasasi",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 101,
@@ -1908,15 +1108,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 27000,
-    "description": "Descubrí RASASI HAWAS ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Rasasi",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Rasasi",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 102,
@@ -1927,15 +1119,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí RASASI HAWAS FOR HIM, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Rasasi",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Rasasi",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 103,
@@ -1946,15 +1130,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí RASASI HAWAS FOR HER, una fragancia fresca y vibrante que deja una estela atractiva y fácil de recordar. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Rasasi",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Rasasi",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 104,
@@ -1965,15 +1141,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 33000,
-    "description": "Descubrí RASASI HAWAS ICE, una fragancia fresca y vibrante pensada para destacar desde la primera aplicación. Su perfil combina cítricos brillantes , acordes acuáticos y almizcles limpios, logrando un aroma con presencia pero fácil de usar. Va muy bien para días cálidos y uso diario.\n\nNotas: cítricos brillantes, acordes acuáticos, almizcles limpios",
-    "category": "Perfume",
-    "brandCategory": "Rasasi",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Rasasi",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 105,
@@ -1984,15 +1152,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí SABAH AL WARD, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Al Wataniah",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Al Wataniah",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 106,
@@ -2003,15 +1163,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí SAKEENA, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 107,
@@ -2022,15 +1174,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí SALVO ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 108,
@@ -2041,15 +1185,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí SO CANDID FEM, una fragancia equilibrada y versátil que deja una estela atractiva y fácil de recordar. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 109,
@@ -2060,15 +1196,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí SO CANDID POUR HOMME, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 110,
@@ -2079,15 +1207,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 18000,
-    "description": "Descubrí SUBLIME, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 111,
@@ -2098,15 +1218,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 28000,
-    "description": "Descubrí SPECTRE GHOST, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Fragrance World",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Fragrance World",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 112,
@@ -2117,15 +1229,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 16000,
-    "description": "Descubrí SPECTRE BRONZITE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Fragrance World",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Fragrance World",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 113,
@@ -2136,15 +1240,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí SUPREMACY LEGACY, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Afnan",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Afnan",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 114,
@@ -2155,15 +1251,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 22000,
-    "description": "Descubrí SEHR, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 115,
@@ -2174,15 +1262,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí SHAHEEN GOLD, una fragancia elegante y envolvente pensada para destacar desde la primera aplicación. Su perfil combina ámbar dorado , vainilla suave y maderas cálidas, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: ámbar dorado, vainilla suave, maderas cálidas",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 116,
@@ -2193,15 +1273,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 24000,
-    "description": "Descubrí TERIAQ, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 117,
@@ -2212,15 +1284,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí TRES NUIT, una fragancia masculina y con carácter pensada para destacar desde la primera aplicación. Su perfil combina especias suaves , maderas secas y toque ambarado, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y oficina.\n\nNotas: especias suaves, maderas secas, toque ambarado",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 118,
@@ -2231,15 +1295,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí THE KINGDOM FEM, una fragancia intensa y moderna que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 119,
@@ -2250,15 +1306,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí THE KINGDOM MASC, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 120,
@@ -2269,15 +1317,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí VICTORIA, una fragancia femenina y elegante pensada para destacar desde la primera aplicación. Su perfil combina flores suaves , frutas delicadas y almizcle sedoso, logrando un aroma con presencia pero fácil de usar. Va muy bien para todos los días y salidas.\n\nNotas: flores suaves, frutas delicadas, almizcle sedoso",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 121,
@@ -2288,15 +1328,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí VICTORIOSO FEARLESS, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 122,
@@ -2307,15 +1339,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí VICTORIOSO HEROIC, una fragancia intensa y moderna que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 123,
@@ -2326,15 +1350,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 14000,
-    "description": "Descubrí VICTORIOSO LEGACY, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Maison Alhambra",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Maison Alhambra",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 124,
@@ -2345,15 +1361,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 36000,
-    "description": "Descubrí VULCAN AVENUE, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "French Avenue",
-    "genderCategory": "Masculino",
-    "tags": [
-      "French Avenue",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 125,
@@ -2364,15 +1372,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 19000,
-    "description": "Descubrí YARA CANDY, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 126,
@@ -2383,15 +1383,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí YARA MOI, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 127,
@@ -2402,15 +1394,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 19000,
-    "description": "Descubrí YARA PINK, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 128,
@@ -2421,15 +1405,7 @@
     "stock": 7,
     "installments": 3,
     "installmentPrice": 17000,
-    "description": "Descubrí YARA TOUS, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 129,
@@ -2440,15 +1416,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí YARA ELIXIR, una fragancia intensa y moderna pensada para destacar desde la primera aplicación. Su perfil combina vainilla cálida , ámbar y maderas oscuras, logrando un aroma con presencia pero fácil de usar. Va muy bien para noche y salidas.\n\nNotas: vainilla cálida, ámbar, maderas oscuras",
-    "category": "Perfume",
-    "brandCategory": "Lattafa",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Lattafa",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 130,
@@ -2459,15 +1427,7 @@
     "stock": 3,
     "installments": 3,
     "installmentPrice": 32000,
-    "description": "Descubrí YUM YUM, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Armaf",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Armaf",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 131,
@@ -2478,15 +1438,7 @@
     "stock": 5,
     "installments": 3,
     "installmentPrice": 21000,
-    "description": "Descubrí ZIMAYA FÁTIMA PINK, una fragancia dulce y envolvente que deja una estela atractiva y fácil de recordar. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Zimaya",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Zimaya",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 132,
@@ -2497,15 +1449,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí ZIMAYA TIRAMISU CARAMEL, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Zimaya",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Zimaya",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 133,
@@ -2516,15 +1460,7 @@
     "stock": 4,
     "installments": 3,
     "installmentPrice": 26000,
-    "description": "Descubrí ZIMAYA TIRAMISU COCO, una fragancia dulce y envolvente pensada para destacar desde la primera aplicación. Su perfil combina vainilla cremosa , acordes dulces y toques gourmand, logrando un aroma con presencia pero fácil de usar. Va muy bien para clima fresco y momentos especiales.\n\nNotas: vainilla cremosa, acordes dulces, toques gourmand",
-    "category": "Perfume",
-    "brandCategory": "Zimaya",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Zimaya",
-      "Perfume",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 134,
@@ -2535,15 +1471,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 20000,
-    "description": "Descubrí ZIMAYA VELVENT LOVE PURPLE, una fragancia equilibrada y versátil pensada para destacar desde la primera aplicación. Su perfil combina frutas suaves , maderas limpias y almizcle delicado, logrando un aroma con presencia pero fácil de usar. Va muy bien para uso diario y salidas.\n\nNotas: frutas suaves, maderas limpias, almizcle delicado",
-    "category": "Perfume",
-    "brandCategory": "Zimaya",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Zimaya",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 201,
@@ -2554,15 +1482,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 11667,
-    "description": "Tratamiento capilar intensivo pensado para nutrir, suavizar y devolver brillo al cabello. Ayuda a mejorar la textura, reducir el frizz y dejar una sensación sedosa desde la primera aplicación.\n\nBeneficios: nutrición profunda, brillo, suavidad\nUso: 1 a 2 veces por semana",
-    "category": "Cuidado Capilar",
-    "brandCategory": "Karsell",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Karsell",
-      "Cuidado Capilar",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 202,
@@ -2573,15 +1493,7 @@
     "stock": 10,
     "installments": 3,
     "installmentPrice": 11667,
-    "description": "Tratamiento capilar intensivo pensado para nutrir, suavizar y devolver brillo al cabello. Ayuda a mejorar la textura, reducir el frizz y dejar una sensación sedosa desde la primera aplicación.\n\nBeneficios: nutrición profunda, brillo, suavidad\nUso: 1 a 2 veces por semana",
-    "category": "Cuidado Capilar",
-    "brandCategory": "Karsell",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Karsell",
-      "Cuidado Capilar",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 203,
@@ -2592,15 +1504,7 @@
     "stock": 15,
     "installments": 3,
     "installmentPrice": 8333,
-    "description": "Potenciá el brillo y controlá el frizz con este óleo capilar de textura liviana. Ayuda a sellar puntas, suavizar la fibra y dejar el cabello más sedoso, manejable y con acabado brillante.\n\nBeneficios: brillo, suavidad, control del frizz\nUso: medios y puntas",
-    "category": "Cuidado Capilar",
-    "brandCategory": "Karsell",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Karsell",
-      "Cuidado Capilar",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 204,
@@ -2611,15 +1515,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 18333,
-    "description": "Potenciá el brillo y controlá el frizz con este óleo capilar de textura liviana. Ayuda a sellar puntas, suavizar la fibra y dejar el cabello más sedoso, manejable y con acabado brillante.\n\nBeneficios: brillo, suavidad, control del frizz\nUso: medios y puntas",
-    "category": "Cuidado Capilar",
-    "brandCategory": "Karsell",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Karsell",
-      "Cuidado Capilar",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 205,
@@ -2630,15 +1526,7 @@
     "stock": 15,
     "installments": 3,
     "installmentPrice": 8333,
-    "description": "Limpiá tu cabello sin resecar con una fórmula pensada para dejarlo suave, suelto y con brillo natural. Ideal para complementar tu rutina de nutrición y cuidado diario.\n\nBeneficios: limpieza suave, brillo, suavidad\nUso: apto para rutina diaria",
-    "category": "Cuidado Capilar",
-    "brandCategory": "Karsell",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Karsell",
-      "Cuidado Capilar",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 206,
@@ -2649,15 +1537,7 @@
     "stock": 15,
     "installments": 3,
     "installmentPrice": 8333,
-    "description": "Acondicioná y desenredá el cabello con una fórmula que ayuda a suavizar la fibra capilar y mejorar la manejabilidad. Deja el pelo más dócil, sedoso y fácil de peinar.\n\nBeneficios: desenredo, suavidad, nutrición\nUso: después del shampoo",
-    "category": "Cuidado Capilar",
-    "brandCategory": "Karsell",
-    "genderCategory": "Unisex",
-    "tags": [
-      "Karsell",
-      "Cuidado Capilar",
-      "Unisex"
-    ]
+    "description": ""
   },
   {
     "id": 301,
@@ -2668,15 +1548,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia femenino, fresco y encantador. Ámbar Romance envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: frutas suaves, flores delicadas\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 302,
@@ -2687,15 +1559,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia refrescante, limpio y liviano. Aqua Kiss envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: notas acuáticas, margarita fresca\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 303,
@@ -2706,15 +1570,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia frutal, alegre y muy femenino. Love Spell envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: durazno jugoso, flor de cerezo\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 304,
@@ -2725,15 +1581,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia aterciopelado, cálido y elegante. Love Spell Cashmere envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: durazno jugoso, cashmere cremoso\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 305,
@@ -2744,15 +1592,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia envolvente, sensual y nocturno. Midnight Bloom envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: flores cremosas, maderas suaves\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 306,
@@ -2763,15 +1603,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia aterciopelado, cálido y elegante. Pure Seduction Cashmere envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: ciruela jugosa, cashmere cremoso\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 307,
@@ -2782,15 +1614,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia romántico, limpio y femenino. Romantic envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: pétalos rosados, almizcle suave\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Masculino"
-    ]
+    "description": ""
   },
   {
     "id": 308,
@@ -2801,15 +1625,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia suave, luminoso y fácil de usar. Rush envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: flores suaves, musk limpio\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 309,
@@ -2820,15 +1636,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia floral, delicado y femenino. Velvet Petals envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: pétalos aterciopelados, almendra glaseada\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 310,
@@ -2839,15 +1647,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia tropical, suave y adictivo. Coconut Passion envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: coco cremoso, vainilla cálida\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 311,
@@ -2858,15 +1658,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia dulce, cálido y envolvente. Bare Vanilla envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: vainilla cremosa, cashmere suave\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 312,
@@ -2877,15 +1669,7 @@
     "stock": 8,
     "installments": 3,
     "installmentPrice": 15000,
-    "description": "Perfumá tu piel con una fragancia frutal, dulce y encantador. Pure Seduction envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: ciruela jugosa, flores suaves\nContenido: 250 ml",
-    "category": "Perfume",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Perfume",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 401,
@@ -2896,15 +1680,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá tu piel con una bruma perfumada tropical, suave y adictivo. Coconut Passion deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: coco cremoso, vainilla cálida\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 402,
@@ -2915,15 +1691,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá tu piel con una bruma perfumada dulce, cálido y envolvente. Bare Vanilla deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: vainilla cremosa, cashmere suave\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 403,
@@ -2934,15 +1702,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá tu piel con una bruma perfumada refrescante, limpio y liviano. Aqua Kiss deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: notas acuáticas, margarita fresca\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 404,
@@ -2953,15 +1713,7 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá tu piel con una bruma perfumada frutal, alegre y muy femenino. Love Spell deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: durazno jugoso, flor de cerezo\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
+    "description": ""
   },
   {
     "id": 405,
@@ -2972,641 +1724,6 @@
     "stock": 6,
     "installments": 3,
     "installmentPrice": 15333,
-    "description": "Iluminá tu piel con una bruma perfumada frutal, dulce y encantador. Pure Seduction deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: ciruela jugosa, flores suaves\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 406,
-    "name": "Temptation (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia dulce, vibrante y juvenil. Temptation envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: manzana jugosa, flor fresca\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 407,
-    "name": "Velvet Petals Daydream (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia ligero, suave y soñador. Velvet Petals Daydream envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: pétalos aterciopelados, flores aireadas\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 408,
-    "name": "Pure Seduction Daydream (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia ligero, suave y soñador. Pure Seduction Daydream envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: ciruela jugosa, flores aireadas\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 409,
-    "name": "Love Spell Daydream (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia ligero, suave y soñador. Love Spell Daydream envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: durazno jugoso, flores aireadas\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 410,
-    "name": "Bare Vanilla Cashmere (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia aterciopelado, cálido y elegante. Bare Vanilla Cashmere envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: vainilla cremosa, cashmere cremoso\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 411,
-    "name": "Bare Vanilla Sol (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia radiante, cálido y veraniego. Bare Vanilla Sol envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: vainilla cremosa, acordes solares\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 412,
-    "name": "Electric Mango (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia jugoso, veraniego y divertido. Electric Mango envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: mango tropical, frutas brillantes\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Masculino"
-    ]
-  },
-  {
-    "id": 413,
-    "name": "Love Spell Sol (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia radiante, cálido y veraniego. Love Spell Sol envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: durazno jugoso, acordes solares\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 414,
-    "name": "Neon Tropic (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia chispeante, fresco y energético. Neon Tropic envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: frutas tropicales, cítricos vibrantes\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 415,
-    "name": "Pure Seduction Sol (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia radiante, cálido y veraniego. Pure Seduction Sol envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: ciruela jugosa, acordes solares\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 416,
-    "name": "Velvet Petals Sol (Mist)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Perfumá tu piel con una fragancia radiante, cálido y veraniego. Velvet Petals Sol envuelve con un aroma que acompaña todo el día sin resultar pesado, ideal para usar sola o combinar con tu crema favorita.\n\nNotas: pétalos aterciopelados, acordes solares\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 417,
-    "name": "Velvet Petals (Mist Shimmer)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Iluminá tu piel con una bruma perfumada floral, delicado y femenino. Velvet Petals deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: pétalos aterciopelados, almendra glaseada\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 418,
-    "name": "Temptation (Mist Shimmer)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Iluminá tu piel con una bruma perfumada dulce, vibrante y juvenil. Temptation deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: manzana jugosa, flor fresca\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 419,
-    "name": "Midnight Bloom (Mist Shimmer)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Iluminá tu piel con una bruma perfumada envolvente, sensual y nocturno. Midnight Bloom deja un acabado sutil con brillo y una estela deliciosa, perfecta para resaltar el look en salidas, eventos o días especiales.\n\nNotas: flores cremosas, maderas suaves\nContenido: 250 ml",
-    "category": "Body Mist",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Body Mist",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 420,
-    "name": "Coconut Passion (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia tropical, suave y adictivo. Coconut Passion deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: coco cremoso, vainilla cálida\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 421,
-    "name": "Bare Vanilla (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia dulce, cálido y envolvente. Bare Vanilla deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: vainilla cremosa, cashmere suave\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 422,
-    "name": "Pure Seduction (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia frutal, dulce y encantador. Pure Seduction deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: ciruela jugosa, flores suaves\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 423,
-    "name": "Velvet Petals (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia floral, delicado y femenino. Velvet Petals deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: pétalos aterciopelados, almendra glaseada\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 424,
-    "name": "Love Spell (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia frutal, alegre y muy femenino. Love Spell deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: durazno jugoso, flor de cerezo\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 425,
-    "name": "Amber Romance (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia seductor, cremoso y duradero. Amber Romance deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: ámbar dulce, vainilla cálida\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Masculino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Masculino"
-    ]
-  },
-  {
-    "id": 426,
-    "name": "Aqua Kiss (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia refrescante, limpio y liviano. Aqua Kiss deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: notas acuáticas, margarita fresca\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 427,
-    "name": "Midnight Bloom (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia envolvente, sensual y nocturno. Midnight Bloom deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: flores cremosas, maderas suaves\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 428,
-    "name": "Rush (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia suave, luminoso y fácil de usar. Rush deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: flores suaves, musk limpio\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 429,
-    "name": "Temptation (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia dulce, vibrante y juvenil. Temptation deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: manzana jugosa, flor fresca\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 430,
-    "name": "Velvet Petals Daydream (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia ligero, suave y soñador. Velvet Petals Daydream deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: pétalos aterciopelados, flores aireadas\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 431,
-    "name": "Pure Seduction Daydream (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia ligero, suave y soñador. Pure Seduction Daydream deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: ciruela jugosa, flores aireadas\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 432,
-    "name": "Love Spell Daydream (Loción)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Hidratá tu piel con una fragancia ligero, suave y soñador. Love Spell Daydream deja la piel suave, nutrida y delicadamente perfumada, ideal para usar después del baño o junto a la bruma de la misma línea.\n\nNotas: durazno jugoso, flores aireadas\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 433,
-    "name": "Love Spell (Loción Shimmer)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Nutrí e iluminá tu piel con una loción frutal, alegre y muy femenino. Love Spell aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: durazno jugoso, flor de cerezo\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 434,
-    "name": "Pure Seduction (Loción Shimmer)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Nutrí e iluminá tu piel con una loción frutal, dulce y encantador. Pure Seduction aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: ciruela jugosa, flores suaves\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 435,
-    "name": "Velvet Petals (Loción Shimmer)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Nutrí e iluminá tu piel con una loción floral, delicado y femenino. Velvet Petals aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: pétalos aterciopelados, almendra glaseada\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 436,
-    "name": "Bare Vanilla (Loción Shimmer)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Nutrí e iluminá tu piel con una loción dulce, cálido y envolvente. Bare Vanilla aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: vainilla cremosa, cashmere suave\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 437,
-    "name": "Coconut Passion (Loción Shimmer)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Nutrí e iluminá tu piel con una loción tropical, suave y adictivo. Coconut Passion aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: coco cremoso, vainilla cálida\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
-  },
-  {
-    "id": 438,
-    "name": "Midnight Bloom (Loción Shimmer)",
-    "price": 0,
-    "transferPrice": 0,
-    "image": "",
-    "stock": 0,
-    "installments": 3,
-    "installmentPrice": 0,
-    "description": "Nutrí e iluminá tu piel con una loción envolvente, sensual y nocturno. Midnight Bloom aporta hidratación, brillo sutil y una fragancia envolvente que realza la piel con un acabado femenino y luminoso.\n\nNotas: flores cremosas, maderas suaves\nContenido: 236 ml",
-    "category": "Loción Corporal",
-    "brandCategory": "Victoria's Secret",
-    "genderCategory": "Femenino",
-    "tags": [
-      "Victoria's Secret",
-      "Loción Corporal",
-      "Femenino"
-    ]
+    "description": ""
   }
 ]

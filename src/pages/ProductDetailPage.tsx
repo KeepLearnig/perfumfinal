@@ -3,8 +3,7 @@ import { ChevronRight, ShoppingCart, ExternalLink } from 'lucide-react';
 import type { Product } from '@/types';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { getProductImages, productPath } from '@/lib/product';
-import { getRelatedProducts, inferBadge, inferBrand, inferCategory, inferGender } from '@/lib/catalog';
+import { getProductImages } from '@/lib/product';
 import { useSite } from '@/context/SiteContext';
 
 interface ProductDetailPageProps {
@@ -23,9 +22,8 @@ function upsertMeta(selector: string, attr: 'name' | 'property', value: string, 
 }
 
 export default function ProductDetailPage({ product, onAddToCart }: ProductDetailPageProps) {
-  const { seo, products } = useSite();
+  const { seo } = useSite();
   const images = useMemo(() => (product ? getProductImages(product) : []), [product]);
-  const relatedProducts = useMemo(() => (product ? getRelatedProducts(product, products, 4) : []), [product, products]);
   const [activeImage, setActiveImage] = useState(0);
 
   useEffect(() => {
@@ -111,20 +109,15 @@ export default function ProductDetailPage({ product, onAddToCart }: ProductDetai
           <div className="rounded-3xl border p-6 md:p-8 bg-white shadow-sm">
             <div className="flex items-start justify-between gap-3">
               <div>
-                <div className="flex flex-wrap gap-2 mb-3">
-                  <Badge variant="secondary">{inferBrand(product)}</Badge>
-                  <Badge variant="secondary">{inferCategory(product)}</Badge>
-                  <Badge variant="secondary">{inferGender(product)}</Badge>
-                </div>
                 <h1 className="text-3xl md:text-4xl font-bold text-black leading-tight">{product.name}</h1>
                 <p className="text-gray-500 mt-2">Fragancia disponible en tienda.</p>
               </div>
               {product.stock === 0 ? (
-                <Badge className="bg-red-100 text-red-700 hover:bg-red-100">{inferBadge(product) ?? 'Agotado'}</Badge>
+                <Badge className="bg-red-100 text-red-700 hover:bg-red-100">Agotado</Badge>
               ) : product.stock <= 3 ? (
-                <Badge className="bg-amber-100 text-amber-700 hover:bg-amber-100">{inferBadge(product) ?? 'Últimas unidades'}</Badge>
+                <Badge className="bg-amber-100 text-amber-700 hover:bg-amber-100">Últimas unidades</Badge>
               ) : (
-                <Badge className="bg-green-100 text-green-700 hover:bg-green-100">{inferBadge(product) ?? 'En stock'}</Badge>
+                <Badge className="bg-green-100 text-green-700 hover:bg-green-100">En stock</Badge>
               )}
             </div>
 
@@ -158,34 +151,6 @@ export default function ProductDetailPage({ product, onAddToCart }: ProductDetai
           </div>
         </div>
       </div>
-
-      {relatedProducts.length > 0 && (
-        <section className="mt-12 md:mt-16">
-          <div className="flex items-end justify-between gap-3 mb-5">
-            <div>
-              <h2 className="text-2xl font-bold">Productos relacionados</h2>
-              <p className="text-sm text-gray-500">Te pueden interesar por marca, tipo o estilo similar.</p>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {relatedProducts.map((item) => (
-              <a key={item.id} href={productPath(item)} className="group rounded-2xl border bg-white overflow-hidden hover:shadow-md transition-shadow">
-                <div className="aspect-square bg-gray-50 overflow-hidden">
-                  <img src={item.image} alt={item.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                </div>
-                <div className="p-3">
-                  <div className="flex flex-wrap gap-1 mb-2 text-[10px]">
-                    <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-700">{inferBrand(item)}</span>
-                    <span className="px-2 py-1 rounded-full bg-gray-100 text-gray-700">{inferGender(item)}</span>
-                  </div>
-                  <h3 className="font-semibold text-sm line-clamp-2 min-h-[2.5rem]">{item.name}</h3>
-                  <p className="text-sm font-bold mt-2">${item.price.toLocaleString('es-AR')}</p>
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
     </main>
   );
 }

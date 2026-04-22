@@ -9,11 +9,6 @@ export interface Product {
   installmentPrice: number;
   description?: string;
   images?: string[];
-  category?: string;
-  brandCategory?: string;
-  genderCategory?: 'Masculino' | 'Femenino' | 'Unisex';
-  relatedIds?: number[];
-  badgeText?: string;
 }
 
 

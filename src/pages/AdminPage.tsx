@@ -131,11 +131,6 @@ function sanitizeExportProducts(products: Product[]): Product[] {
       installments,
       installmentPrice: Math.max(0, Number(product.installmentPrice) || Math.round(price / installments)),
       description: String(product.description ?? ''),
-      category: product.category ? String(product.category) : undefined,
-      brandCategory: product.brandCategory ? String(product.brandCategory) : undefined,
-      genderCategory: product.genderCategory === 'Masculino' || product.genderCategory === 'Femenino' || product.genderCategory === 'Unisex' ? product.genderCategory : undefined,
-      relatedIds: Array.isArray(product.relatedIds) ? product.relatedIds.map((item) => Number(item)).filter((item) => Number.isFinite(item) && item > 0) : undefined,
-      badgeText: product.badgeText ? String(product.badgeText) : undefined,
     };
   });
 }
@@ -360,11 +355,6 @@ function ProductsTab() {
       stock: 5,
       installments: 3,
       installmentPrice: 3333,
-      category: 'Perfume',
-      brandCategory: 'General',
-      genderCategory: 'Unisex',
-      relatedIds: [],
-      badgeText: '',
     };
     setAllProducts([product, ...products]);
     setExpandedId(product.id);
